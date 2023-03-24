@@ -1,0 +1,39 @@
+@startuml eco30
+
+title Eco30 Carbon Offset Project
+
+package "Immutable Carbon Offsets" {
+[Business Entities]
+[Governments]
+[Institutional Investors]
+}
+
+database "Decentralized Database" {
+[Drone Flights]
+[AI Algorithms]
+[QR Codes]
+}
+
+actor DAR as "DAR\n(Decentralized Autonomous Registry)"
+
+actor Blockchain
+
+BusinessEntities --> DAR : Certification & Governance
+Governments --> DAR : Certification & Governance
+InstitutionalInvestors --> DAR : Certification & Governance
+
+DAR --> DecentralizedDatabase : Verification & Tracking
+DecentralizedDatabase --> Blockchain : Tokenize Immutable Carbon Offsets
+
+note top of Blockchain
+Tokenization offers:
+
+Ecologically aligned incentives
+Trust, transparency, and security
+end note
+@enduml
+
+
+
+
+

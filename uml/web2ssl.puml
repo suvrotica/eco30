@@ -1,0 +1,40 @@
+@startuml ssl
+title Web2 Secure Sockets Layer (SSL)
+
+actor User
+actor "Certificate Authority (CA)" as CA
+
+participant "Client Browser" as Client
+participant "SSL Certificate" as Certificate
+participant "Web Server" as Server
+
+User -> Client: Access website
+Client -> Server: Request server's public key and SSL certificate
+Server -> Client: Send public key and SSL certificate
+Client -> Certificate: Verify SSL certificate
+Certificate -> CA: Check certificate validity
+CA --> Certificate: Confirm certificate validity
+Certificate --> Client: Confirm server's authenticity
+
+alt Certificate is valid and server is authentic
+Client -> Server: Encrypt data using server's public key\n(ex: financial info, personal info)
+Server -> Server: Decrypt data using private key
+Client <-> Server: Secure communication (gibberish)
+else Certificate is invalid or server is not authentic
+Client -> User: Display warning\n(possible phishing attack)
+end
+
+note over Client, Server
+Advantages:
+- Data security
+- Authentication
+- Credibility and Trust
+- SEO Advantages
+end note
+
+@enduml
+
+
+
+
+

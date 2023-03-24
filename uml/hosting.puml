@@ -1,0 +1,55 @@
+@startuml hosting
+
+title Eco30 Project Component & Deployment Diagram
+
+!define NODE "Node.js"
+!define VITE "Vite"
+!define VERCEL "Vercel"
+
+package "Svelte" {
+  [Svelte]
+  note right of [Svelte]
+    - Cutting-edge frontend framework
+    - Compiler converts components into efficient JavaScript code
+    - Smaller bundle sizes and improved runtime performance
+    - Reactive components with HTML, CSS, and JavaScript
+  end note
+}
+
+package "SvelteKit" {
+  [SvelteKit]
+  note right of [SvelteKit]
+    - Full framework built on top of Svelte
+    - Unified project structure
+    - Server-side rendering (SSR) and static site generation (SSG)
+    - Integrated build system (Vite) and development server
+    - Simplified deployment with adapter system
+    - Extensibility with other tools, libraries, and APIs
+  end note
+}
+
+component "Eco30 Project" as Eco30
+
+Eco30 --> [SvelteKit] : Uses
+[SvelteKit] --> [Svelte] : Built on top of
+
+package "Development Environment" {
+  [Developer's Machine]
+  artifact "Svelte & SvelteKit" as SvelteKitDev
+  artifact NODE as NodeJS
+  artifact VITE as Vite
+}
+
+cloud "Vercel" {
+  [Vercel Platform]
+  artifact "Svelte & SvelteKit" as DeployedSvelteKit
+}
+
+[Developer's Machine] --> SvelteKitDev : Develops
+[Developer's Machine] --> NodeJS : Uses
+[Developer's Machine] --> Vite : Uses
+
+[Developer's Machine] -down-> [Vercel Platform] : Deploys
+[Vercel Platform] --> DeployedSvelteKit : Hosts
+
+@enduml
