@@ -3,12 +3,7 @@
   </script>
   
   <nav>
-	<ul>
-	  <li>
-		<strong>Carbon Credit Project</strong>
-		<cite> - Eco30</cite>
-	  </li>
-	</ul>
+	
 	<ul>
 	  {#each links as link}
 		<li>
