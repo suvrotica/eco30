@@ -34,8 +34,9 @@
        
         <p class="footer-text" >ECO30 Solutions stands as a steadfast sentinel, dedicated to the noble pursuit of harmonious growth that coexists with nature's delicate equilibrium. With unswerving conviction, we devote ourselves to the cause of environmental preservation and the safeguarding of our shared moral obligations. United, we embark on a resolute journey, tilling the soil of change, to sow the seeds of a verdant and resilient tomorrow, destined to flourish and nurture generations yet unborn.</p>
     </div>
+    <hr>
     <div class="copyright">
-        <p>&copy; {new Date().getFullYear()} Karim Ouazzani, Evan Buck, Joseph Swaminathan, Suvro Ghosh</p>
+        <p>&copy; {new Date().getFullYear()} Karim Ouazzani, Evan Buck, Joseph Swaminathan, Suvro Ghosh  </p>
     </div>
 </footer>
 
