@@ -1,6 +1,7 @@
 <script>
   import Navigation from "../lib/components/Navigation.svelte";
   import PageHeader from "../lib/components/PageHeader.svelte";
+  import Footer from "../lib/components/Footer.svelte";
   
 
 
@@ -59,6 +60,10 @@
 
 
 <slot />
+<hr>
+<footer>
+	<Footer/>
+</footer>
 </main>
 
 <style>
