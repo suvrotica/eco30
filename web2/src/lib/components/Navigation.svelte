@@ -19,8 +19,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-flow: row;
   grid-auto-rows: 20px;
-  width: 100%;
-  margin:20px;
+  width: 95%;
+  margin:auto;
 }
 
 .link {
@@ -40,10 +40,10 @@
 
   
 	a {
-	  font-weight: 400;
-	  text-transform: uppercase;
+	  font-weight: 300;
+	  text-transform: full-width;
 	  text-decoration: none;
-	  color: #d3a2a2;
+	  color: #e0dcb0;
 	  transition: color 0.3s ease;
 	}
   
