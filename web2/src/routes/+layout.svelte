@@ -49,15 +49,17 @@
 
 
 
-<main>
+<main >
 	<header>
 		<PageHeader {logo_image}/>
 		<Navigation {links} />
+		<hr>
 	</header>
-</main>
+
 
 
 <slot />
+</main>
 
 <style>
 	
@@ -66,6 +68,8 @@
 
 main {
   font-family: 'Poppins', sans-serif;
+  width: 95%;
+  margin:auto;
 }
 
 
