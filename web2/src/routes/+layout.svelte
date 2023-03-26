@@ -2,8 +2,6 @@
   import Navigation from "../lib/components/Navigation.svelte";
   import PageHeader from "../lib/components/PageHeader.svelte";
   
-  
-
 
 
 	const logo_image="/Images/Logo.jpg";
@@ -12,6 +10,18 @@
 			href: "/",
 			title: "Home",
 			
+		},
+		{
+			href:"/project",
+			title:"Project",
+		},
+		{
+			href:"/stakeholders",
+			title:"Stakeholders",
+		},
+		{
+			href:"/budget",
+			title:"Budget",
 		},
 		{
 			href: "/framework",

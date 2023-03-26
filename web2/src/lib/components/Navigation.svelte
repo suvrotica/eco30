@@ -2,9 +2,8 @@
 	export let links;
   </script>
   
-  <nav>
-	
-	<ul>
+  <nav  >
+	<ul >
 	  {#each links as link}
 		<li>
 		  <a href={link.href} title={link.title}>{link.title}</a>
@@ -14,21 +13,23 @@
   </nav>
   
   <style>
-	cite {
-	  font-weight: 200;
-	  color: #777;
-	}
-  
-	strong {
-	  font-weight: 600;
-	  text-transform: uppercase;
-	  color: #333;
-	}
-	
 	nav {
+		display: grid;
+	  grid-template-columns: repeat(4, 1fr);
+	  grid-auto-rows: auto;
+	  grid-gap: 10px;
 	  margin: auto;
 	  width: 95%;
 	}
+
+  
+	nav ul {
+	  padding: 0;
+	  list-style-type: none;
+	  margin: 0;
+	}
+  
+
   
 	a {
 	  font-weight: 400;
