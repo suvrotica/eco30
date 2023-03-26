@@ -36,7 +36,8 @@
     </div>
     <hr>
     <div class="copyright">
-        <p>&copy; {new Date().getFullYear()} Karim Ouazzani, Evan Buck, Joseph Swaminathan, Suvro Ghosh  </p>
+        <p>&copy; {new Date().getFullYear()} Karim Quazzani, Evan Buckman, Joseph Swaminathan, Suvro Ghosh
+        </p>
     </div>
 </footer>
 
