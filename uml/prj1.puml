@@ -1,0 +1,22 @@
+@startuml
+
+actor User
+participant "User Interface" as UI
+participant "Smart Contracts" as SC
+participant Blockchain
+participant "AI-based Algorithm" as AI
+participant "Data Analytics" as DA
+
+User -> UI : Interact with platform
+UI -> SC : Request token purchase
+SC -> Blockchain : Record transaction
+Blockchain -> SC : Confirm transaction
+SC -> UI : Update balance
+UI -> User : Show updated balance
+
+AI -> DA : Generate data
+DA -> AI : Analyze data
+AI -> UI : Provide insights
+
+@enduml
+

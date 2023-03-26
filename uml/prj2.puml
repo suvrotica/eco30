@@ -1,0 +1,36 @@
+@startuml
+
+' Define components
+actor User
+package "WebUI" {
+[User Interface]
+[Carbon Token Balance]
+}
+database Blockchain
+component "Smart Contracts" as SC
+component "AI-based Algorithm" as AI
+component "Data Analytics" as DA
+
+' Connect components
+User --> [User Interface] : Interact
+[User Interface] --> [Carbon Token Balance] : View balance
+[User Interface] --> SC : Purchase tokens
+SC --> Blockchain : Record transactions
+AI --> DA : Generate data
+DA --> [Carbon Token Balance] : Update balance
+
+' Add project phases
+note top of SC
+Phase 1: Preliminary project planning and overall architecture design
+end note
+note top of SC
+Phase 2: Blockchain component and development of platform till MVP
+end note
+note top of AI
+Phase 3: Complete development of the project
+end note
+note top of DA
+Phase 4: Maintenance of the platform - long term
+end note
+
+@enduml
