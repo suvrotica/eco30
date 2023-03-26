@@ -2,10 +2,10 @@
 	export let links;
   </script>
   
-  <nav  >
-	<ul >
+  <nav   >
+	<ul class="navbar">
 	  {#each links as link}
-		<li>
+		<li class="link">
 		  <a href={link.href} title={link.title}>{link.title}</a>
 		</li>
 	  {/each}
@@ -13,22 +13,30 @@
   </nav>
   
   <style>
-	nav {
-		display: grid;
-	  grid-template-columns: repeat(4, 1fr);
-	  grid-auto-rows: auto;
-	  grid-gap: 10px;
-	  margin: auto;
-	  width: 95%;
-	}
+	.navbar {
+		
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  grid-auto-rows: 20px;
+  width: 100%;
+  margin:20px;
+}
 
-  
-	nav ul {
-	  padding: 0;
-	  list-style-type: none;
-	  margin: 0;
-	}
-  
+.link {
+  grid-row-start: span 1;
+  width: 100%;
+}
+
+
+.link:nth-child(5) {
+  grid-row-start: 2;
+}
+
+.link:nth-child(9) {
+  grid-row-start: 3;
+}
+
 
   
 	a {
