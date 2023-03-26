@@ -1,0 +1,49 @@
+@startmindmap x
+* 3.1. Stakeholder Identification
+** Project experts
+** Carbon credit providers
+** Carbon credit buyers
+** Regulators and certification bodies
+** Investors
+
+* 3.1.1. Project Team
+** Project Manager
+** Blockchain Developers
+*** Core and dApp
+** Front-end Developers
+** UX/UI Designers
+** Back-end Developers
+*** DevOps and Full Stack
+** QA Testers
+*** Blockchain testing and auditing
+*** Overall platform testing
+** Python Drone Programmer
+** Marketing and Communication Specialists
+** Legal and Compliance Experts
+** Financial Analysts
+
+* 3.1.2. End Users
+** Individuals
+** Companies and Organizations
+** Non-governmental Organizations (NGOs) and Nonprofits
+** Government Agencies
+** Educational Institutions
+** Investors and Traders
+
+* 3.1.3. Regulators and Certification Bodies
+** National Environmental Agencies
+** International Environmental Organizations
+** Voluntary Carbon Offset Standards
+** Carbon Credit Registries
+** Third-Party Verification Agencies
+
+* 3.1.4. Third-Party Service Providers
+** Blockchain Development Companies
+** Web Development and Design Agencies
+** Payment Gateway Providers
+** AI and Data Analytics Companies
+** Drone Technology Providers
+** Marketing and PR Agencies
+** Legal and Compliance Consultants
+** Cybersecurity Firms
+@endmindmap
