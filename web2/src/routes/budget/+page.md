@@ -88,7 +88,9 @@
   3. Provide technical support to users
   4. Continuously improve the user experience of the platform
 
-## Total Estimated Project Cost: $797,000 - $1,075,950 (assuming 12 month completion of phase 2+3 and excluding phase 4)
+## Total Estimated Project Cost
+
+- $797,000 - $1,075,950 (assuming 12 month completion of phase 2+3 and excluding phase 4)
 
 - $1,061,000 - 1,062,750 (assuming 16 month completion of phase 2+3 and excluding phase 4)
 
