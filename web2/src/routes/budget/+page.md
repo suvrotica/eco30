@@ -89,11 +89,9 @@
   3. Provide technical support to users
   4. Continuously improve the user experience of the platform
 
-## **Total** Estimated Project Cost **$1,668,000** (excluding phase 4)
+## **Total** Estimated Project Cost **$1,668,000** in **21 months** (excluding phase 4)
 
--
-
-It is essential to note that the timeline and milestones may be subject to change based on the project's complexity, resource availability, and any unforeseen challenges that may arise during the development process. Regular progress tracking and communication among the project team will help ensure that the project stays on track and that any deviations from the planned timeline are promptly addressed.
+- It is essential to note that the timeline and milestones may be subject to change based on the project's complexity, resource availability, and any unforeseen challenges that may arise during the development process. Regular progress tracking and communication among the project team will help ensure that the project stays on track and that any deviations from the planned timeline are promptly addressed.
 
 ## Financial Planning Strategies
 
