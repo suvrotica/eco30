@@ -29,19 +29,20 @@
 
 ## Team and Salaries
 
-- Project Manager (part-time): 1 @ $6,000 per month
+- Project Manager : 1 @ $12,000 per month
 - Blockchain Developers: 2 @ $8,000 per month
 - Front End Developers: 2 @ $6,000 per month and 2 @ $4,000 per month
 - Back End Developers: 1 @ $6,000 per month and 1 @ $4,000 per month
 - QA Testers: 2 @ $4,000 per month
 - Drone Developers: 1 @ $6,000 per month
-
-## Budget and Financial Planning
+- Contingency: $10,800 per month.
+  - An additional contingency fund of 15% of the total monthly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation. This include subscriptions and other costs not categorized.
+- TOTAL: $82,800 per month.
 
 ### Phase 1: Preliminary Project Planning and Overall Architecture Design
 
 - Duration: 1 month
-- Estimated Cost: $5,000 - $10,000
+- Estimated Cost: $12,000
 - Key Expenses: Project management, research, and architecture design
 - **Milestones**:
   1. Define project objectives and goals
@@ -51,8 +52,8 @@
 
 ### Phase 2: Blockchain Component and Development of Platform till MVP
 
-- Duration: 6-8 months
-- Estimated Cost: $396,000 - $528,000
+- Duration: 10 months
+- Estimated Cost: $828,000
 - Key Expenses: Salaries for the project team, development tools, third-party services, and infrastructure costs
 - **Milestones**:
   1. Develop smart contracts on the Polygon blockchain
@@ -65,8 +66,8 @@
 
 ### Phase 3: Complete Development of the Project
 
-- Duration: 6-8 months
-- Estimated Cost: $396,000 - $528,000
+- Duration: 10 months
+- Estimated Cost: $828,000
 - Key Expenses: Salaries for the project team
 - **Milestones**:
   1. Develop drone programming for reforestation measurement
@@ -80,7 +81,7 @@
 ### Phase 4: Maintenance of the Platform - Long Term
 
 - Duration: Ongoing
-- Estimated Cost: $792,000 per year
+- Estimated Cost: $82,800 per month
 - Key Expenses: Salaries for the project team
 - **Milestones**:
   1. Monitor and maintain the platform to ensure functionality and performance
@@ -88,14 +89,9 @@
   3. Provide technical support to users
   4. Continuously improve the user experience of the platform
 
-## Total Estimated Project Cost
+## **Total** Estimated Project Cost **$1,668,000** (excluding phase 4)
 
-- $797,000 - $1,075,950 (assuming 12 month completion of phase 2+3 and excluding phase 4)
-
-- $1,061,000 - 1,062,750 (assuming 16 month completion of phase 2+3 and excluding phase 4)
-
-An additional contingency fund of 35% of the total yearly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation.
-That would take the project asking to $89,100/month.
+-
 
 It is essential to note that the timeline and milestones may be subject to change based on the project's complexity, resource availability, and any unforeseen challenges that may arise during the development process. Regular progress tracking and communication among the project team will help ensure that the project stays on track and that any deviations from the planned timeline are promptly addressed.
 
