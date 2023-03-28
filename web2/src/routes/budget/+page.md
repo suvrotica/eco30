@@ -88,7 +88,7 @@
   3. Provide technical support to users
   4. Continuously improve the user experience of the platform
 
-## Total Estimated Project Cost: $505,000 - $760,000 (excluding ongoing maintenance costs)
+## Total Estimated Project Cost: $797,000 - $1,075,950 (excluding phase 4)
 
 An additional contingency fund of 35% of the total yearly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation.
 That would take the project asking to $89,100/month.
