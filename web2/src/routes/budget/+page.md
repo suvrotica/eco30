@@ -36,7 +36,8 @@
 - QA Testers: 2 @ $4,000 per month
 - Drone Developers: 1 @ $6,000 per month
 - Subscriptions: $5000 per month
-TOTAL: $77,800 per month
+
+## TOTAL: $77,800 per month
 
 Contingency: An additional contingency fund of 15% of the total monthly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation.
 
