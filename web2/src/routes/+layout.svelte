@@ -46,7 +46,7 @@
 		},
 		{
 			href: "/carbon",
-			title: "CO2-- Tech",
+			title: "Platforms",
 			
 		},
 	];
