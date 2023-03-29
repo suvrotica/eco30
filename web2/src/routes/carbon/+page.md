@@ -29,7 +29,7 @@ There are also other blockchain-based platforms and technologies that can be use
 
 There are several open source and non-open source projects and protocols aimed at promoting sustainable practices and carbon offsetting through blockchain technology.
 
-Open source projects:
+## Open source projects
 
 - Carbon Grid Protocol: A decentralized platform that enables the trading of carbon credits as non-fungible tokens (NFTs) on the Ethereum blockchain. The platform ensures transparency and authenticity by using smart contracts to manage the trading process.
 
@@ -45,7 +45,7 @@ Open source projects:
 
 - Carbonbase: A platform that enables individuals and organizations to offset their carbon footprint by investing in sustainable projects. The platform uses blockchain technology to ensure transparency and traceability in the offsetting process.
 
-Non-open source projects:
+## Non-open source projects
 
 - CarbonX: A platform that enables the trading of carbon credits as fungible tokens on the blockchain. The platform uses a proprietary blockchain technology to ensure scalability and security.
 
