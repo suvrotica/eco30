@@ -1,4 +1,5 @@
 # Architecture Design
+
 The system architecture of the Carbon Token on the Polygon Blockchain project is comprised of several interconnected components that work together to provide an efficient, secure, and user-friendly platform. The project uses modern and reliable technologies to ensure a seamless and transparent experience for its users.
 
 The frontend of the platform is built using the SvelteKit framework, which offers several advantages over traditional frameworks, such as improved performance and faster load times. Users can purchase carbon tokens, view their token balance, and monitor their carbon offsetting progress through this responsive and intuitive interface.

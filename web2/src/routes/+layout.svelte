@@ -49,6 +49,11 @@
 			title: "Platforms",
 			
 		},
+		{
+			href: "/architecture",
+			title: "Architecture",
+			
+		},
 	];
 
 </script>
