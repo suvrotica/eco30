@@ -1,0 +1,52 @@
+@startuml
+
+title Carbon Token Component Diagram
+
+package "Frontend" {
+  [WebUI]
+  [Purchase Tokens]
+  [View Token Balance]
+  [Monitor Carbon Offsetting Progress]
+}
+
+package "Backend" {
+  [APIs/Logic]
+  [Process User Requests]
+  [Manage Token Transactions]
+  [Integrate AI-based Algorithm for Carbon Offsetting Measurement]
+}
+
+package "Smart Contracts" {
+  [Token Issuance]
+  [Token Transactions]
+  [Tokenomics Management]
+}
+
+package "Data Layer" {
+  [Polygon Blockchain (Token Transactions)]
+  [Data Analytics Module (Carbon Offsetting Measurement)]
+}
+
+package "External Components" {
+  [AI-based Algorithm (Carbon Offsetting Measurement)]
+  [MetaMask and WalletConnect (Blockchain Wallet Integration)]
+}
+
+[WebUI] --> [Purchase Tokens]
+[WebUI] --> [View Token Balance]
+[WebUI] --> [Monitor Carbon Offsetting Progress]
+
+[APIs/Logic] --> [Process User Requests]
+[APIs/Logic] --> [Manage Token Transactions]
+[APIs/Logic] --> [Integrate AI-based Algorithm for Carbon Offsetting Measurement]
+
+[Token Issuance] --> [Token Transactions]
+[Token Transactions] --> [Token Issuance]
+[Token Transactions] --> [Tokenomics Management]
+
+[Polygon Blockchain (Token Transactions)] --> [Token Transactions]
+[Data Analytics Module (Carbon Offsetting Measurement)] --> [APIs/Logic]
+[AI-based Algorithm (Carbon Offsetting Measurement)] --> [APIs/Logic]
+[MetaMask and WalletConnect (Blockchain Wallet Integration)] --> [WebUI]
+
+@enduml

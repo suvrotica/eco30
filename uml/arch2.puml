@@ -1,0 +1,19 @@
+@startuml
+
+title Carbon Token Data Flow Diagram
+
+User -> Frontend: Purchase Tokens \nView Token Balance \nMonitor Carbon Offsetting Progress
+
+Frontend -> Backend: User Requests
+
+Backend -> SmartContracts: Token Transactions
+
+SmartContracts -> DataLayer: Token Transactions
+
+DataLayer -> AIBasedAlgorithm: Carbon Offsetting Measurement
+
+AIBasedAlgorithm -> Backend: Carbon Offsetting Measurements
+
+Backend -> Frontend: Updated Information
+
+@enduml

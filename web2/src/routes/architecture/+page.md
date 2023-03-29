@@ -55,3 +55,24 @@ Here's the textual description of the component diagram for the Carbon Token pro
     b. MetaMask and WalletConnect (Blockchain Wallet Integration)
 
 ![uml](/Images/arch1.svg)
+
+## Data Flow Diagram
+
+A Data Flow Diagram (DFD) provides a visual representation of how data flows through a system. It helps to understand the flow of data between different components and processes in the system. Here is a textual description of the Data Flow Diagram for the Carbon Token project:
+
+1. User Interaction:
+   The user interacts with the Frontend (WebUI) to purchase carbon tokens, view their token balance, and monitor their carbon offsetting progress.
+2. Frontend (WebUI) to Backend (APIs/Logic):
+   The frontend sends user requests to the backend, which processes the requests and manages token transactions.
+3. Backend (APIs/Logic) to Smart Contracts (Polygon Blockchain):
+   The backend communicates with the smart contracts to perform token issuance, token transactions, and tokenomics management.
+4. Smart Contracts (Polygon Blockchain) to Data Layer (Blockchain & Analytics):
+   The smart contracts store token transactions on the Polygon Blockchain, and the data analytics module receives data for carbon offsetting measurement.
+5. Data Layer (Blockchain & Analytics) to AI-based Algorithm (Carbon Offsetting Measurement):
+   The data analytics module sends data to the AI-based algorithm, which calculates the carbon offsetting achieved through reforestation efforts.
+6. AI-based Algorithm (Carbon Offsetting Measurement) to Backend (APIs/Logic):
+   The AI-based algorithm sends the carbon offsetting measurements back to the backend, which updates the user's carbon offsetting progress.
+7. Backend (APIs/Logic) to Frontend (WebUI):
+   The backend sends updated information, including the user's token balance and carbon offsetting progress, back to the frontend for display.
+
+![uml](/Images/arch2.svg)
