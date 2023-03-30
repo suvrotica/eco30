@@ -551,22 +551,6 @@ When selecting the technology stack for the backend API, consider the project re
 
 The project aims to utilize the best open-source resources and tools whenever possible to facilitate development, reduce costs, and promote collaboration. Open-source tools can provide a solid foundation for the platform, enabling the project team to build on existing solutions and contribute to the broader open-source community. This section outlines some suggested open-source resources and tools for various aspects of the platform development process.
 
-## Open Standards and Technologies
-
-Open standards and technologies play a crucial role in the development and interoperability of the Carbon Token on Polygon Blockchain project. Leveraging open standards ensures that the platform remains transparent, accessible, and compatible with other technologies, fostering collaboration and innovation within the ecosystem. Some of the key open standards and technologies relevant to this project include:
-
-Ethereum: Ethereum is an open-source, public blockchain platform that enables the development of decentralized applications (DApps) and smart contracts. The Carbon Token project is built on the Polygon network, which is a Layer 2 scaling solution for Ethereum, allowing the project to benefit from Ethereum's extensive development community and resources.
-
-Solidity: Solidity is an open-source, statically-typed programming language specifically designed for writing smart contracts on the Ethereum blockchain. By using Solidity, the Carbon Token project can develop secure and efficient smart contracts for token issuance, tracking, and management.
-
-IPFS: The InterPlanetary File System (IPFS) is a distributed, peer-to-peer file storage protocol that enables secure and decentralized data storage. IPFS can be used in the Carbon Token project to store data related to reforestation efforts, ensuring that it remains accessible and resilient.
-
-Web3.js: Web3.js is an open-source JavaScript library that allows developers to interact with Ethereum blockchain nodes using HTTP and WebSocket protocols. It facilitates the integration of the Carbon Token platform's frontend with the smart contracts and blockchain backend, enabling seamless user interaction with the platform.
-
-Open Geospatial Consortium (OGC) Standards: OGC is an international organization that develops open standards for geospatial data and services. The Carbon Token project can leverage OGC standards, such as the Web Map Service (WMS) and Web Feature Service (WFS), to integrate and exchange geospatial data related to reforestation efforts with other platforms and services.
-
-OpenAPI Specification: OpenAPI is a widely-adopted, language-agnostic standard for describing RESTful APIs. By adhering to the OpenAPI Specification, the Carbon Token project can ensure that its APIs are interoperable, easy to understand, and can be integrated with other systems and tools.
-
 1. Source Code Management:
    - Git: A widely used distributed version control system that allows developers to track changes in the source code and collaborate efficiently.
    - GitHub or GitLab: Both platforms provide web-based hosting services for Git repositories, along with additional features like issue tracking, project management, and continuous integration.
@@ -589,6 +573,22 @@ OpenAPI Specification: OpenAPI is a widely-adopted, language-agnostic standard f
    - Read the Docs or GitHub Pages: Both platforms provide free hosting for documentation, allowing the project team to publish and maintain comprehensive, up-to-date documentation for the platform.
 
 By leveraging open-source resources and tools throughout the development process, the project team can benefit from existing solutions, contribute to the open-source ecosystem, and maximize the platform's potential.
+
+## Open Standards and Technologies
+
+Open standards and technologies play a crucial role in the development and interoperability of the Carbon Token on Polygon Blockchain project. Leveraging open standards ensures that the platform remains transparent, accessible, and compatible with other technologies, fostering collaboration and innovation within the ecosystem. Some of the key open standards and technologies relevant to this project include:
+
+- Ethereum: Ethereum is an open-source, public blockchain platform that enables the development of decentralized applications (DApps) and smart contracts. The Carbon Token project is built on the Polygon network, which is a Layer 2 scaling solution for Ethereum, allowing the project to benefit from Ethereum's extensive development community and resources.
+
+- Solidity: Solidity is an open-source, statically-typed programming language specifically designed for writing smart contracts on the Ethereum blockchain. By using Solidity, the Carbon Token project can develop secure and efficient smart contracts for token issuance, tracking, and management.
+
+- IPFS: The InterPlanetary File System (IPFS) is a distributed, peer-to-peer file storage protocol that enables secure and decentralized data storage. IPFS can be used in the Carbon Token project to store data related to reforestation efforts, ensuring that it remains accessible and resilient.
+
+- Web3.js: Web3.js is an open-source JavaScript library that allows developers to interact with Ethereum blockchain nodes using HTTP and WebSocket protocols. It facilitates the integration of the Carbon Token platform's frontend with the smart contracts and blockchain backend, enabling seamless user interaction with the platform.
+
+- Open Geospatial Consortium (OGC) Standards: OGC is an international organization that develops open standards for geospatial data and services. The Carbon Token project can leverage OGC standards, such as the Web Map Service (WMS) and Web Feature Service (WFS), to integrate and exchange geospatial data related to reforestation efforts with other platforms and services.
+
+- OpenAPI Specification: OpenAPI is a widely-adopted, language-agnostic standard for describing RESTful APIs. By adhering to the OpenAPI Specification, the Carbon Token project can ensure that its APIs are interoperable, easy to understand, and can be integrated with other systems and tools.
 
 ## Integration with External Systems and Services
 
