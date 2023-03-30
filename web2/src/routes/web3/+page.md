@@ -33,27 +33,3 @@ Hardhat is a popular development environment, task runner, and testing framework
 - **Network agnostic**: Hardhat can be configured to work with different Ethereum-compatible networks, including the Polygon network. This makes it a suitable choice for developing and deploying the Carbon Token smart contracts on the Polygon Blockchain.
 
 Hardhat provides a robust and flexible development environment that simplifies the process of creating, testing, and deploying Ethereum smart contracts. By using Hardhat for the Carbon Token on Polygon Blockchain project, the development team can benefit from its extensive features and tools, ensuring a more efficient and reliable development process.
-
-# My Document
-
-## Table of Contents
-
-- [Web3 Standards and Protocols](#web3-standards-and-protocols)
-  - [Hardhat Environment](#hardhat-environment)
-- [My Document](#my-document)
-  - [Table of Contents](#table-of-contents)
-  - [First heading](#first-heading)
-    - [First subheading](#first-subheading)
-  - [Second heading](#second-heading)
-
-## First heading
-
-Content for the first heading.
-
-### First subheading
-
-Content for the first subheading.
-
-## Second heading
-
-Content for the second heading.
