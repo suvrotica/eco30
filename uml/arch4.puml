@@ -1,0 +1,25 @@
+@startuml
+
+actor User
+
+participant TokenSale as TS
+participant CarbonToken as CT
+participant Tokenomics as TM
+participant ReforestationIncentive as RI
+participant ReforestationTracking as RT
+participant CarbonOffsettingDashboard as COD
+
+User -> TS: buyTokens(amount)
+TS -> CT: mint(User, tokensToMint)
+CT -> User: transferTokens(tokensToMint)
+User -> TM: calculateTokenUtility()
+TM --> User: tokenUtility
+User -> RI: claimReward()
+RI -> CT: transferTokens(User, rewardAmount)
+CT -> User: updateTokenBalance(rewardAmount)
+User -> RT: addReforestationData()
+RT -> COD: updateCarbonOffsettingMeasurements()
+User -> COD: queryCarbonOffsettingProgress()
+COD --> User: carbonOffsettingProgress
+
+@enduml

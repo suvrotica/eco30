@@ -1,0 +1,24 @@
+@startuml
+
+actor User
+
+component "CarbonToken Contract" as CarbonToken
+component "Tokenomics Contract" as Tokenomics
+component "TokenSale Contract" as TokenSale
+component "ReforestationTracking Contract" as ReforestationTracking
+component "CarbonOffsettingDashboard Contract" as CarbonOffsettingDashboard
+component "ReforestationIncentive Contract" as ReforestationIncentive
+
+User --> CarbonToken : Interact
+User --> Tokenomics : Interact
+User --> TokenSale : Interact
+User --> ReforestationTracking : Interact
+User --> CarbonOffsettingDashboard : Interact
+User --> ReforestationIncentive : Interact
+
+TokenSale -down-> CarbonToken : Depends on
+Tokenomics -down-> CarbonToken : Depends on
+ReforestationIncentive -down-> CarbonToken : Depends on
+ReforestationTracking -down-> CarbonOffsettingDashboard : Depends on
+
+@enduml

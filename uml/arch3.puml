@@ -1,0 +1,53 @@
+@startuml
+!pragma useVerticalIf on
+
+class CarbonToken {
+    +mint()
+    +burn()
+    +transfer()
+    +approve()
+    +transferFrom()
+    +balanceOf()
+    +allowance()
+}
+
+class Tokenomics {
+    +setTokenomicsStrategy()
+    +calculateTokenDistribution()
+    +calculateTokenUtility()
+}
+
+class TokenSale {
+    +setTokenPrice()
+    +setMinMaxInvestmentAmounts()
+    +buyTokens()
+    +querySaleDetails()
+}
+
+class ReforestationTracking {
+    +addReforestationData()
+    +updateCarbonOffsettingMeasurements()
+    +queryCarbonOffsettingProgress()
+}
+
+class CarbonOffsettingDashboard {
+    +queryUserCarbonTokenBalance()
+    +queryUserCarbonOffsettingProgress()
+    +queryOverallCarbonOffsettingAchieved()
+}
+
+class ReforestationIncentive {
+    +setRewardParameters()
+    +claimReward()
+    +distributeRewards()
+    +addAuthorizedAddress()
+    +removeAuthorizedAddress()
+    +getParticipantReward()
+}
+
+CarbonToken "1" -- "1" Tokenomics
+CarbonToken "1" -- "1" TokenSale
+CarbonToken "1" -- "1" ReforestationIncentive
+ReforestationTracking "1" -- "1" CarbonOffsettingDashboard
+
+@enduml

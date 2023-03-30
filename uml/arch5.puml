@@ -1,0 +1,32 @@
+@startuml
+
+start
+
+:User decides to purchase tokens;
+
+if (Token sale is active?) then (yes)
+    :User sends funds to TokenSale contract;
+    :TokenSale calculates tokensToMint;
+    :TokenSale mints tokens in CarbonToken contract;
+    :CarbonToken transfers tokens to User;
+else (no)
+    :User waits for token sale;
+endif
+
+:User calculates token utility with Tokenomics contract;
+:User participates in reforestation efforts;
+
+if (User is eligible for rewards?) then (yes)
+    :User claims reward from ReforestationIncentive contract;
+    :ReforestationIncentive transfers tokens to User;
+else (no)
+    :User continues reforestation efforts;
+endif
+
+:User adds reforestation data to ReforestationTracking contract;
+:ReforestationTracking updates carbon offsetting measurements;
+:User queries CarbonOffsettingDashboard for progress;
+
+stop
+
+@enduml

@@ -1,5 +1,7 @@
 # Architecture Design
 
+![uml](/Images/arch5.svg)
+
 The system architecture of the Carbon Token on the Polygon Blockchain project is comprised of several interconnected components that work together to provide an efficient, secure, and user-friendly platform. The project uses modern and reliable technologies to ensure a seamless and transparent experience for its users.
 
 The frontend of the platform is built using the SvelteKit framework, which offers several advantages over traditional frameworks, such as improved performance and faster load times. Users can purchase carbon tokens, view their token balance, and monitor their carbon offsetting progress through this responsive and intuitive interface.
@@ -76,3 +78,104 @@ A Data Flow Diagram (DFD) provides a visual representation of how data flows thr
    The backend sends updated information, including the user's token balance and carbon offsetting progress, back to the frontend for display.
 
 ![uml](/Images/arch2.svg)
+
+## 4.2. Smart Contract Design
+
+The Carbon Token project's Smart Contract Design consists of several interconnected contracts responsible for various aspects of the system. These contracts are deployed on the Polygon blockchain, enabling the issuance and management of carbon tokens and the calculation of carbon offsetting achieved through reforestation efforts.
+
+### CarbonToken Contract
+
+This contract is in charge of creating, issuing, and managing carbon tokens. It encompasses functionalities such as minting and burning tokens and transferring tokens between users. The CarbonToken contract is ERC20-compatible, ensuring compatibility with existing wallets and exchanges.
+
+**Key functions of the CarbonToken Contract:**
+
+- Mint tokens
+- Burn tokens
+- Transfer tokens
+- Query token balance
+- Approve and transferFrom for third-party transfers
+
+### Tokenomics Contract
+
+This contract manages the project's tokenomics, including token distribution and utility calculation. It implements the TokenomicsStrategy interface, providing methods for calculating token distribution and utility based on different strategies (e.g., LinearTokenomicsStrategy or ExponentialTokenomicsStrategy).
+
+**Key functions of the Tokenomics Contract:**
+
+- Set tokenomics strategy
+- Calculate token distribution
+- Calculate token utility
+
+### TokenSale Contract
+
+This contract oversees the sale of carbon tokens, including setting the token price and minimum and maximum investment amounts. It interacts with the CarbonToken contract to mint and distribute tokens to purchasers.
+
+**Key functions of the TokenSale Contract:**
+
+- Set token price
+- Set minimum and maximum investment amounts
+- Buy tokens
+- Query sale details
+-
+
+![uml](/Images/arch3.svg)
+
+### ReforestationTracking Contract
+
+This contract tracks reforestation efforts and the resulting carbon offsetting. It interacts with the AI-based Algorithm and the Data Analytics module to measure and analyze the carbon offsetting achieved through reforestation efforts.
+
+**Key functions of the ReforestationTracking Contract:**
+
+- Add reforestation data
+- Update carbon offsetting measurements
+- Query carbon offsetting progress
+
+### CarbonOffsettingDashboard Contract
+
+This contract serves as a central hub for users to access and interact with their carbon offsetting data. It offers an interface for users to view their carbon token balance, the progress of reforestation efforts, and the overall carbon offsetting achieved by the system.
+
+**Key functions of the CarbonOffsettingDashboard Contract:**
+
+- Query user's carbon token balance
+- Query user's carbon offsetting progress
+- Query overall carbon offsetting achieved by the system
+
+By developing and deploying these smart contracts on the Polygon blockchain, the Carbon Token project establishes a solid foundation for managing and tracking carbon tokens and their impact on reforestation efforts.
+
+![uml](/Images/arch4.svg)
+
+### 4.2.1. Carbon Token Smart Contract
+
+The Carbon Token Smart Contract is the project's central component, handling the creation, issuance, and management of carbon tokens. It is an ERC20-compatible token, allowing compatibility with existing wallets, exchanges, and third-party applications. The contract is implemented on the Polygon blockchain, taking advantage of its fast and low-cost transactions.
+
+![uml](/Images/arch6.jpg)
+
+**Key functions of the Carbon Token Smart Contract:**
+
+- constructor: Initializes the Carbon Token Smart Contract with the token name, symbol, and decimals, as well as the initial and maximum token supply.
+- mint: Mints new tokens and adds them to the specified user's balance. This function can only be called by authorized addresses, such as the TokenSale contract or the project owner.
+- burn: Burns tokens from the specified user's balance, effectively reducing the circulating supply of tokens. This function can be used to retire tokens that represent carbon offsets that have been achieved.
+- transfer: Allows users to transfer tokens from their balance to another user's balance.
+- approve: Grants approval to a third-party address to transfer a specified amount of tokens on behalf of the user.
+- transferFrom: Allows a third-party address to transfer tokens from one user's balance to another user's balance, as long as the required approval has been granted.
+- balanceOf: Returns the token balance of a specified user.
+- allowance: Returns the remaining number of tokens that a third-party address is allowed to transfer on behalf of a user, as granted by the approve function.
+
+By implementing these functions, the Carbon Token Smart Contract provides a comprehensive solution for managing carbon tokens within the platform. Users can purchase, transfer, and burn tokens, while the TokenSale contract and other authorized addresses can mint new tokens as needed. This design ensures a secure and transparent system for tracking carbon offsets achieved through reforestation efforts.
+
+![uml](/Images/arch7.svg)
+
+### 4.2.2. Reforestation Incentive Smart Contract
+
+The Reforestation Incentive Smart Contract is responsible for distributing rewards and incentives to participants in the reforestation efforts. This contract encourages individuals and organizations to take part in reforestation activities by providing them with carbon tokens as a reward for their efforts. The contract is designed to be flexible and adaptable, allowing for different types of incentives and reward structures based on the project's needs.
+
+**Key functions of the Reforestation Incentive Smart Contract:**
+
+- constructor: Initializes the Reforestation Incentive Smart Contract, setting the Carbon Token Smart Contract address and the initial reward distribution parameters.
+- setRewardParameters: Allows the contract owner or an authorized address to update the reward distribution parameters. This includes the reward rate, minimum and maximum rewards, and any other relevant parameters.
+- claimReward: Enables participants in the reforestation efforts to claim their carbon token rewards. The function verifies the eligibility of the participant and calculates the reward based on the provided proof of work (e.g., planting trees, maintaining the reforested area) and the current reward parameters.
+- distributeRewards: Distributes carbon token rewards to all eligible participants. This function can be called by the contract owner or an authorized address, and ensures that rewards are fairly distributed based on each participant's contribution to the reforestation efforts.
+- addAuthorizedAddress: Allows the contract owner to add new authorized addresses that can call certain restricted functions, such as updating reward parameters or distributing rewards.
+- removeAuthorizedAddress: Allows the contract owner to remove an authorized address, revoking its access to the restricted functions.
+- getParticipantReward: Returns the current reward balance for a specified participant.
+
+By implementing these functions, the Reforestation Incentive Smart Contract creates a transparent and fair system for rewarding participants in the reforestation efforts. This incentivizes individuals and organizations to contribute to carbon offsetting activities, ultimately helping the project achieve its goal of promoting reforestation and combating climate change.

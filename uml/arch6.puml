@@ -1,0 +1,24 @@
+@startuml
+
+[*] --> NotMinted
+
+state NotMinted {
+}
+
+state Minted {
+    [*] --> Available
+    Available --> Burned : Burn token
+    Available --> Transferred : Transfer token
+}
+
+state Burned {
+}
+
+state Transferred {
+}
+
+NotMinted --> Minted : Mint token
+
+Minted --> [*] : Burn token
+
+@enduml
