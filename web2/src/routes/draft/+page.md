@@ -114,7 +114,7 @@ In this section, we will outline the minimum hardware and software requirements 
 
 ### 2.1. Hardware Requirements
 
-The hardware requirements for the project can be divided into three main categories: development environment, testing environment, and production environment. These requirements will be subject to change as the project progresses and may need to be updated in later phases.
+The hardware requirements per team participant, for the project can be divided into three main categories: development environment, testing environment, and production environment. These requirements will be subject to change as the project progresses and may need to be updated in later phases.
 
 1. Development Environment:
    - A modern computer with a multi-core processor, at least 8 GB of RAM, and sufficient storage space for the development tools, source code, and supporting files.
@@ -135,12 +135,12 @@ The software requirements for the project are crucial to ensure that the platfor
 
 1. Operating System: A modern operating system, such as Windows, to support the development environment and server infrastructure.
 2. Polygon Blockchain: Integration with the Polygon blockchain network for issuing and managing carbon tokens.
-3. Smart Contract Development: Utilization of Solidity or an alternative smart contract language compatible with the Polygon network for carbon token smart contract development.
-4. Backend Development: A suitable backend framework and programming language, such as Node.js or Python, to support the platform's API, data processing, and business logic.
+3. Smart Contract Development: Utilization of Solidity smart contract language compatible with the Polygon network for carbon token smart contract development.
+4. Backend Development: A suitable backend framework and programming language, such as Node.js to support the platform's API, data processing, and business logic.
 5. Database Management System: A scalable and reliable database management system, such as PostgreSQL or MongoDB, to store and manage user data, reforestation initiatives, and carbon token transactions.
 6. Frontend Development: A modern frontend framework, such as Sveltekit, for building a user-friendly interface and responsive web application.
 7. Version Control System: A version control system, such as Git, for managing source code, collaborating on development tasks, and tracking changes throughout the project lifecycle.
-8. Continuous Integration and Deployment: A CI/CD pipeline, such as Jenkins or GitHub Actions, to automate the testing, building, and deployment of the platform components.
+8. Continuous Integration and Deployment: A CI/CD pipeline, such as GitHub Actions, to automate the testing, building, and deployment of the platform components.
 
 ### 2.3. Network Infrastructure
 
@@ -195,7 +195,125 @@ Estimating the project's budget is crucial for securing funding, allocating reso
 3. Software Licenses: Costs associated with any proprietary software, tools, subscriptions, or services required for the project.
 4. Marketing and Outreach: Expenses related to promoting the platform, attracting users and reforestation partners, and building brand awareness.
 5. Partnerships and Collaborations: Costs associated with establishing and maintaining relationships with opensource initiatives, regulatory authorities, or other relevant organizations.
-6. Contingency Funds: A reserve budget to cover unexpected expenses or cost overruns during the project's development and implementation.
+6. Contingency Funds: A reserve budget to cover unexpected expenses or cost overruns during the project's development and implementation. An additional contingency fund of 15% of the total monthly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation.
+
+## Team and Salaries
+
+- Project Manager : 1 @ $12,000 per month
+
+- Blockchain Developers: 2 @ $8,000 per month
+
+- Front End Developers: 2 @ $6,000 per month and 2 @ $4,000 per month
+
+- Back End Developers: 1 @ $6,000 per month and 1 @ $4,000 per month
+
+- QA Testers: 2 @ $4,000 per month
+
+- Drone Developers: 1 @ $6,000 per month
+
+- Subscriptions: $5000 per month
+
+## TOTAL: $77,800 per month
+
+### Phase 1: Preliminary Project Planning and Overall Architecture Design
+
+- Duration: 1 month
+
+- Estimated Cost: $12,000
+
+- Key Expenses: Project management, research, and architecture design
+
+- **Milestones**:
+
+  1. Define project objectives and goals
+
+  2. Develop a detailed project plan and roadmap
+
+  3. Design the overall platform architecture
+
+  4. Deliver a technical requirements document and architecture design document
+
+### Phase 2: Blockchain Component and Development of Platform till MVP
+
+- Duration: 10 months
+
+- Estimated Cost: $778,000
+
+- Key Expenses: Salaries for the project team, development tools, third-party services, and infrastructure costs
+
+- **Milestones**:
+
+  1. Develop smart contracts on the Polygon blockchain
+
+  2. Develop a web interface for users to access the platform
+
+  3. Design a user-friendly interface for token issuance and tracking
+
+  4. Integrate a payment gateway for carbon token purchases
+
+  5. Develop APIs for data retrieval
+
+  6. Test the platform and fix any bugs
+
+  7. Deliver an MVP of the platform, including user documentation
+
+### Phase 3: Complete Development of the Project
+
+- Duration: 10 months
+
+- Estimated Cost: $778,000
+
+- Key Expenses: Salaries for the project team
+
+- **Milestones**:
+
+  1. Develop drone programming for reforestation measurement
+
+  2. Develop an AI-based algorithm for carbon offsetting measurement
+
+  3. Implement the carbon offsetting measurement algorithm
+
+  4. Develop a dashboard for users to view their carbon offsetting progress
+
+  5. Design and launch marketing campaigns to promote the platform
+
+  6. Test the platform and fix any bugs
+
+  7. Deliver final project deliverables, including updated user documentation
+
+### Phase 4: Maintenance of the Platform - Long Term
+
+- Duration: Ongoing
+
+- Estimated Cost: $77,800 per month
+
+- Key Expenses: Salaries for the project team
+
+- **Milestones**:
+
+  1. Monitor and maintain the platform to ensure functionality and performance
+
+  2. Implement regular updates to improve platform functionality
+
+  3. Provide technical support to users
+
+  4. Continuously improve the user experience of the platform
+
+## **Total** Estimated Project Cost **$1,568,000** in **21 months** (excluding phase 4)
+
+- It is essential to note that the timeline and milestones may be subject to change based on the project's complexity, resource availability, and any unforeseen challenges that may arise during the development process. Regular progress tracking and communication among the project team will help ensure that the project stays on track and that any deviations from the planned timeline are promptly addressed.
+
+## Financial Planning Strategies
+
+1. **Equity financing**: Seek investments from venture capital firms, angel investors, or other funding sources that are interested in supporting blockchain-based environmental projects.
+
+2. **Grants and subsidies**: Apply for grants or subsidies from governmental and non-governmental organizations that support environmental initiatives and innovative technology development.
+
+3. **Token sales**: Conduct an initial coin offering (ICO) or other token sale events to raise funds from the public, offering investors an opportunity to purchase carbon tokens at a discounted price.
+
+4. **Partnerships**: Establish strategic partnerships with established organizations or corporations that have a vested interest in supporting carbon offsetting projects or blockchain technology.
+
+5. **Self-funding**: If the founding team has sufficient financial resources, they can consider self-funding the project or utilizing personal networks to secure investments.
 
 ### 3.5. Project Timeline
 
