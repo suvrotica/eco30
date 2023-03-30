@@ -54,6 +54,17 @@
 			title: "Architecture",
 			
 		},
+		{
+			href: "/web3",
+			title: "Web3",
+			
+		},
+		{
+			href: "/draft",
+			title: "Draft",
+			
+		},
+		
 	];
 
 </script>
