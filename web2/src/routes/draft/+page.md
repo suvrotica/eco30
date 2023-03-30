@@ -176,20 +176,6 @@ Forming the project team involves identifying and recruiting the necessary perso
 4. Project Management: An experienced project manager to oversee the project's progress, manage resources, and ensure effective communication among team members and stakeholders.
 5. Quality Assurance: Testers and quality assurance personnel responsible for verifying that the platform meets functional requirements, performance standards, and security requirements.
 
-The size of a team may change depending on the needs of a project or the phase. It is not uncommon for a team to include freelancers, part-time workers, or temporary employees to meet deadlines or address specific skill gaps. The ideal team size varies depending on the type of work, the interdependence of tasks, and the level of collaboration required among team members.
-
-In general, smaller teams tend to perform better when tasks require close collaboration and interdependence among team members. For most collaborative teams, the ideal size is between 4 and 8 members. This range can help balance the need for diversity in skills, knowledge, and experience while maintaining effective communication and coordination within the team.
-
-However, team dynamics can change with the addition of freelancers or part-timers. While these additional members may help meet deadlines or address specific needs, they can also increase the complexity of team communication and coordination. The formula for communication pathways in a team is n (n - 1) / 2, where n is the number of team members. As the team size increases, the number of communication pathways also increases, which can make coordination more challenging.
-
-Ultimately, the goal should be to find a team size and composition that works well for the specific project or organization. This might involve testing different team sizes, evaluating the balance of full-time employees and temporary workers, and considering how team members' skills and expertise complement each other. As team dynamics change, it is essential to regularly assess and adjust team composition to ensure optimal performance and satisfaction for all members.
-
-When creating a budget, it is essential to consider both the rough team size and the salary ranges for each role as indicative placeholders. Since team size can vary depending on the project requirements, the budget is based on the ideal team size as discussed, which can typically range between 4 and 8 for most collaborative teams.
-
-Salary ranges have been considered in the budget. It's important to note that actual monthly salaries can differ based on factors such as experience, skills, and performance. Salary structures help ensure that pay levels for groups of jobs are competitive externally and equitable internally.
-
-This approach will help ensure a more accurate and flexible budget that can adapt to the changing needs of the project.
-
 ### 3.3. Risk Assessment
 
 Conducting a risk assessment is essential to identify and address potential risks and challenges that could impact the project's success. By proactively identifying risks, the project team can develop strategies to mitigate or avoid these issues before they become critical problems. Some possible risks for this project include:
@@ -226,6 +212,20 @@ Estimating the project's budget is crucial for securing funding, allocating reso
 - Drone Developers: 1 @ $6,000 per month
 
 - Subscriptions: $5000 per month
+
+The size of a team may change depending on the needs of a project or the phase. It is not uncommon for a team to include freelancers, part-time workers, or temporary employees to meet deadlines or address specific skill gaps. The ideal team size varies depending on the type of work, the interdependence of tasks, and the level of collaboration required among team members.
+
+In general, smaller teams tend to perform better when tasks require close collaboration and interdependence among team members. For most collaborative teams, the ideal size is between 4 and 8 members. This range can help balance the need for diversity in skills, knowledge, and experience while maintaining effective communication and coordination within the team.
+
+However, team dynamics can change with the addition of freelancers or part-timers. While these additional members may help meet deadlines or address specific needs, they can also increase the complexity of team communication and coordination. The formula for communication pathways in a team is n (n - 1) / 2, where n is the number of team members. As the team size increases, the number of communication pathways also increases, which can make coordination more challenging.
+
+Ultimately, the goal should be to find a team size and composition that works well for the specific project or organization. This might involve testing different team sizes, evaluating the balance of full-time employees and temporary workers, and considering how team members' skills and expertise complement each other. As team dynamics change, it is essential to regularly assess and adjust team composition to ensure optimal performance and satisfaction for all members.
+
+When creating a budget, it is essential to consider both the rough team size and the salary ranges for each role as indicative placeholders. Since team size can vary depending on the project requirements, the budget is based on the ideal team size as discussed, which can typically range between 4 and 8 for most collaborative teams.
+
+Salary ranges have been considered in the budget. It's important to note that actual monthly salaries can differ based on factors such as experience, skills, and performance. Salary structures help ensure that pay levels for groups of jobs are competitive externally and equitable internally.
+
+This approach will help ensure a more accurate and flexible budget that can adapt to the changing needs of the project.
 
 ## TOTAL: $77,800 per month
 
