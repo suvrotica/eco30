@@ -378,6 +378,8 @@ The overall architecture should be designed to ensure that each component can be
 
 ### 4.2. Component Interactions and Data Flow
 
+![uml](/Images/drf2.svg)
+
 Understanding the interactions between the platform's components and the flow of data within the system is essential for designing a cohesive and efficient architecture. This section provides an overview of the main interactions and data flows among the system components:
 
 1. User Registration and Authentication: Users access the frontend application to create an account and authenticate themselves. The frontend communicates with the backend API, which in turn interacts with the database to store and retrieve user data. Secure authentication mechanisms, such as OAuth or JWT, should be used to protect user credentials and ensure data privacy.

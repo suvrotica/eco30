@@ -1,0 +1,44 @@
+@startuml
+
+skinparam linetype ortho
+
+actor User
+
+package "Frontend\nApplication" as Frontend {
+  [User Interface]
+}
+
+package "Backend\nAPI" as Backend {
+  [Authentication]
+  [Token Transactions]
+  [Data Exchange]
+}
+
+database "Database"
+
+cloud "Polygon\nBlockchain" as Polygon {
+  [Smart Contracts]
+}
+
+cloud "Reforestation\nManagement System" as Reforestation {
+  [Initiatives Monitoring]
+  [Carbon Offset Verification]
+  [Token Distribution]
+}
+
+node "Security\nInfrastructure" as Security {
+  [Security Measures]
+}
+
+User --> Frontend : Register & Authenticate\nToken Transactions\nView & Participate in Initiatives
+Frontend --> Backend : User Registration & Authentication\nToken Transactions\nReforestation Initiative Data
+Backend --> Database : Store & Retrieve User Data\nUpdate User Balances & Record Transactions
+Backend --> Polygon : Interact with Smart Contracts\nIssue Tokens on Polygon Blockchain
+Backend --> Reforestation : Retrieve & Update Reforestation Data\nVerify Carbon Offsets\nInitiate Token Issuance
+Security ..> Frontend : Protect Components
+Security ..> Backend : Protect Components
+Security ..> Database : Protect Components
+Security ..> Polygon : Protect Components
+Security ..> Reforestation : Protect Components
+
+@enduml
