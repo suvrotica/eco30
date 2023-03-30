@@ -147,7 +147,7 @@ By developing and deploying these smart contracts on the Polygon blockchain, the
 
 The Carbon Token Smart Contract is the project's central component, handling the creation, issuance, and management of carbon tokens. It is an ERC20-compatible token, allowing compatibility with existing wallets, exchanges, and third-party applications. The contract is implemented on the Polygon blockchain, taking advantage of its fast and low-cost transactions.
 
-![uml](/Images/arch6.jpg)
+![uml](/Images/arch6.svg)
 
 **Key functions of the Carbon Token Smart Contract:**
 
