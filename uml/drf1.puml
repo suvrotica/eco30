@@ -1,0 +1,66 @@
+@startuml
+
+package "Frontend Application" {
+  [User Interface]
+  [User Interactions]
+}
+
+package "Backend API" {
+  [Authentication]
+  [Token Transactions]
+  [Data Exchange]
+}
+
+database "Database" {
+  [User Data]
+  [Reforestation Initiatives]
+  [Carbon Token Transactions]
+}
+
+cloud "Polygon Blockchain Integration" {
+  [Token Issuance]
+  [Token Transactions]
+  [User Balances]
+}
+
+cloud "Reforestation Management System" {
+  [Initiatives Monitoring]
+  [Carbon Offset Verification]
+  [Token Distribution]
+}
+
+node "Security Infrastructure" {
+  [Security Measures]
+}
+
+UserInterface --> Authentication : Data Retrieval & Updates
+UserInterface --> TokenTransactions : Token Transactions
+UserInterface --> InitiativesMonitoring : Reforestation Initiatives & Carbon Tokens
+
+Authentication --> UserData : Authenticate & Register Users
+TokenTransactions --> PolygonBlockchainIntegration : Token Transactions
+DataExchange --> InitiativesMonitoring : Manage & Monitor Reforestation Initiatives
+
+UserData <-- Database : Store & Retrieve Data
+ReforestationInitiatives <-- Database : Store & Retrieve Data
+CarbonTokenTransactions <-- Database : Store & Retrieve Data
+
+PolygonBlockchainIntegration --> TokenIssuance : Issue Tokens Based on Verified Carbon Offsets
+PolygonBlockchainIntegration --> UserBalances : Maintain User Balances
+
+TokenDistribution --> InitiativesMonitoring : Update & Retrieve Reforestation Initiatives
+TokenDistribution --> PolygonBlockchainIntegration : Issue Carbon Tokens Based on Verified Offsets
+
+SecurityInfrastructure --> UserInterface : Protect Components
+SecurityInfrastructure --> Authentication : Protect Components
+SecurityInfrastructure --> TokenTransactions : Protect Components
+SecurityInfrastructure --> UserData : Protect Components
+SecurityInfrastructure --> ReforestationInitiatives : Protect Components
+SecurityInfrastructure --> CarbonTokenTransactions : Protect Components
+SecurityInfrastructure --> TokenIssuance : Protect Components
+SecurityInfrastructure --> UserBalances : Protect Components
+SecurityInfrastructure --> InitiativesMonitoring : Protect Components
+SecurityInfrastructure --> CarbonOffsetVerification : Protect Components
+SecurityInfrastructure --> TokenDistribution : Protect Components
+
+@enduml

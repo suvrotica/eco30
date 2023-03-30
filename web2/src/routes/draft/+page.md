@@ -363,6 +363,8 @@ The overall architecture design is a critical aspect of Phase 1, as it lays the 
 
 ### 4.1. System Components Overview
 
+![uml](/Images/drf1.svg)
+
 The platform's architecture can be divided into several key components, each responsible for specific functionalities and working together to deliver a comprehensive solution for issuing carbon tokens and managing reforestation initiatives. The main components include:
 
 1. Polygon Blockchain Integration: The core component responsible for issuing and managing carbon tokens on the Polygon blockchain network, including smart contract development and deployment, token transactions, and wallet integration.
