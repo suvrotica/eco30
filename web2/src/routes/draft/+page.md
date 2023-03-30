@@ -425,6 +425,8 @@ Creating a component interaction diagram can provide a clear visual overview of 
 
 #### 4.2.2. Data Flow Diagram
 
+![uml](/Images/drf3.svg)
+
 A data flow diagram (DFD) is a graphical representation of the flow of data within a system, showing how data is processed and transformed by each component. The DFD helps to illustrate the system's functional requirements and provides a clear understanding of how data moves through the platform. A data flow diagram for the platform might include:
 
 1. User Registration and Authentication:

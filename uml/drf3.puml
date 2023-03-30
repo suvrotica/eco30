@@ -1,0 +1,28 @@
+@startuml
+
+skinparam linetype ortho
+
+actor User
+
+entity "Frontend\nApplication" as Frontend
+entity "Backend\nAPI" as Backend
+database "Database"
+cloud "Polygon\nBlockchain Integration" as Polygon
+cloud "Reforestation\nManagement System" as Reforestation
+
+Frontend -down-> Backend : User Input
+Backend -right-> Database : Store & Retrieve User Data
+Backend -up-> Frontend : Authentication Results
+
+Reforestation -down-> Polygon : Carbon Offset Data
+Polygon -down-> Database : Issued Carbon Tokens
+
+Frontend -down-> Backend : Token Transaction Requests
+Backend -right-> Polygon : Process Token Transactions
+Polygon -down-> Database : Transaction Details & User Balances
+
+Reforestation -down-> Backend : Reforestation Initiatives & Carbon Offsets
+Backend -right-> Database : Store & Retrieve Reforestation Data
+Backend -up-> Frontend : Reforestation Initiative Data
+
+@enduml
