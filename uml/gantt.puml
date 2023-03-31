@@ -1,10 +1,10 @@
 @startgantt
 projectscale quarterly
 Project starts the 1st of march 2023
-[Planning] as [TASK1] lasts 30 days
-[Development]  as [TASK2] lasts 300 days
-[Deployment]  as [TASK3] lasts 300 days
-[Ongoing Support] as [TASK4] lasts 365 days
+[Phase 1] as [TASK1] lasts 30 days
+[Phase 2]  as [TASK2] lasts 300 days
+[Phase 3]  as [TASK3] lasts 300 days
+[Phase 4] as [TASK4] lasts 365 days
 [TASK1]->[TASK2]
 [TASK2]->[TASK3]
 [TASK3]->[TASK4]
