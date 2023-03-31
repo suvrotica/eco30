@@ -1,11 +1,21 @@
 
-# Project Carbon Token Platform
+# Project Carbon Token
 
-### 1.1. Project Overview
+## Project Overview
 
 The project revolves around the issuance of carbon tokens on the Polygon blockchain. By tying these tokens to reforestation efforts, the project aims to create a tangible and measurable impact on global carbon sequestration. The tokens will be used as a means of incentivizing reforestation activities and allowing individuals and organizations to offset their carbon footprint.
 
-### Project Timeline
+## Project Objectives
+
+The primary objectives are:
+
+-   To create a decentralized platform that issues carbon tokens on the Polygon blockchain.
+-   To leverage reforestation initiatives to generate measurable and verifiable carbon offsets.
+-   To incentivize reforestation efforts by using carbon tokens as a reward mechanism.
+-   To provide a user-friendly platform for individuals and organizations to offset their carbon footprints.
+-   To utilize open-source technologies and tools to maximize transparency, collaboration, and cost-effectiveness.
+
+## Project Timeline
 
 Creating a project timeline helps to establish deadlines, allocate resources, and track progress throughout the project lifecycle. The timeline should include key milestones, deliverables, and deadlines for each phase of the project. 
 The timeline should be flexible enough to accommodate changes and adjustments as the project progresses, while still providing clear goals and deadlines to ensure timely progress.
@@ -30,15 +40,6 @@ Maintenance of the platform - long term
 
 This website will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
 
-### 1.2. Project Objectives
-
-The primary objectives of this project are:
-
-1. To create a decentralized platform that issues carbon tokens on the Polygon blockchain.
-2. To leverage reforestation initiatives to generate measurable and verifiable carbon offsets.
-3. To incentivize reforestation efforts by using carbon tokens as a reward mechanism.
-4. To provide a user-friendly platform for individuals and organizations to offset their carbon footprints.
-5. To utilize open-source technologies and tools to maximize transparency, collaboration, and cost-effectiveness.
 
 ### 1.3. Scope of the Documentation
 
