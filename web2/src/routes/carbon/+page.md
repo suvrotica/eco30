@@ -1,5 +1,5 @@
 
-# Carbon Sequestration Platforms
+# Extant Platforms
 
 These are three different technologies or platforms related to environmental sustainability and carbon footprint reduction similar to Eco30.
 

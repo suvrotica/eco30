@@ -14,33 +14,3 @@ You can select Vercel as your deployment platform while using SvelteKit. Vercel 
 
 ![Alt text](Images/hosting.svg)
 
-``` javascript
-@startuml hosting
-
-title Deployment Diagram
-
-!define NODE "Node.js"
-!define VITE "Vite"
-!define VERCEL "Vercel"
-
-package "Development Environment" {
-  [Developer's Machine]
-  artifact "Svelte & SvelteKit" as SvelteKit
-  artifact NODE as NodeJS
-  artifact VITE as Vite
-}
-
-cloud "Vercel" {
-  [Vercel Platform]
-  artifact "Svelte & SvelteKit" as DeployedSvelteKit
-}
-
-[Developer's Machine] --> SvelteKit : Develops
-[Developer's Machine] --> NodeJS : Uses
-[Developer's Machine] --> Vite : Uses
-
-[Developer's Machine] -down-> [Vercel Platform] : Deploys
-[Vercel Platform] --> DeployedSvelteKit : Hosts
-
-@enduml
-```
