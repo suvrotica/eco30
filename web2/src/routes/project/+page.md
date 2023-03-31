@@ -2,9 +2,28 @@
 # Project Carbon Token
 
 The Carbon Token Platform is an innovative project that aims to revolutionize the carbon market by incorporating blockchain technology, smart contracts, and AI-driven data analytics. The platform is designed to make the process of purchasing and managing carbon tokens easy and efficient for users.
+
+### Components
+
+Component diagrams are used to visualize the organization and relationships among software components in a system. They depict high-level components, their interactions, and the dependencies between them. This type of diagram is particularly useful for representing the architecture of a software system and helps in understanding the functionality and organization of different components.
+
+The platform allows users to buy and manage carbon tokens through a user-friendly website. When users interact with the website, they can view their carbon token balance and purchase more tokens. The platform uses a digital record book called a blockchain to keep track of all token transactions. Automatic agreements called smart contracts take care of buying tokens and adding transactions to the blockchain. The platform also includes a smart computer program that generates helpful data for decision-making and improvements, and a data analytics component that analyzes this data and updates the number of carbon tokens each user has.
+
+![uml](/Images/prj2.svg)
+
+
 ## Project Overview
 
 The project revolves around the issuance of carbon tokens on the Polygon blockchain. By tying these tokens to reforestation efforts, the project aims to create a tangible and measurable impact on global carbon sequestration. The tokens will be used as a means of incentivizing reforestation activities and allowing individuals and organizations to offset their carbon footprint.
+
+### Sequence 
+
+Sequence diagrams visually represent the interactions between various components in a system over time. They are particularly useful for illustrating the flow of messages and events in a specific order, making it easier to understand the sequence of processes within a system. Sequence diagrams help developers and stakeholders to identify and analyze the relationships between different objects or components and understand how they interact with one another. 
+
+In this platform, a user interacts with the User Interface to buy carbon tokens. The interface sends a request to the Smart Contracts, which then records the transaction on the Blockchain. Once the transaction is confirmed, the Smart Contracts update the user's token balance in the interface, which then displays the updated balance. Meanwhile, an AI-based Algorithm generates data that the Data Analytics component analyzes. The analyzed data is sent back to the AI-based Algorithm, which then provides insights to the user through the User Interface.
+
+![uml](/Images/prj1.svg)
+
 
 ## Project Objectives
 
@@ -58,18 +77,3 @@ Complete development of the project
 ### Phase 4:
 Maintenance of the platform - long term
 
-## Components
-
-Component diagrams are used to visualize the organization and relationships among software components in a system. They depict high-level components, their interactions, and the dependencies between them. This type of diagram is particularly useful for representing the architecture of a software system and helps in understanding the functionality and organization of different components.
-
-The platform allows users to buy and manage carbon tokens through a user-friendly website. When users interact with the website, they can view their carbon token balance and purchase more tokens. The platform uses a digital record book called a blockchain to keep track of all token transactions. Automatic agreements called smart contracts take care of buying tokens and adding transactions to the blockchain. The platform also includes a smart computer program that generates helpful data for decision-making and improvements, and a data analytics component that analyzes this data and updates the number of carbon tokens each user has.
-
-![uml](/Images/prj2.svg)
-
-## Sequence 
-
-Sequence diagrams visually represent the interactions between various components in a system over time. They are particularly useful for illustrating the flow of messages and events in a specific order, making it easier to understand the sequence of processes within a system. Sequence diagrams help developers and stakeholders to identify and analyze the relationships between different objects or components and understand how they interact with one another. 
-
-In this platform, a user interacts with the User Interface to buy carbon tokens. The interface sends a request to the Smart Contracts, which then records the transaction on the Blockchain. Once the transaction is confirmed, the Smart Contracts update the user's token balance in the interface, which then displays the updated balance. Meanwhile, an AI-based Algorithm generates data that the Data Analytics component analyzes. The analyzed data is sent back to the AI-based Algorithm, which then provides insights to the user through the User Interface.
-
-![uml](/Images/prj1.svg)
