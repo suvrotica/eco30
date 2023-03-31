@@ -30,11 +30,6 @@
 			
 		},
 		{
-			href: "/hosting",
-			title: "Hosting",
-			
-		},
-		{
 			href: "/security",
 			title: "Security",
 			
