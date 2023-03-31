@@ -41,6 +41,15 @@ It is essential to recognize that the designs created during this initial phase 
 
 By acknowledging these caveats and remaining flexible in our approach, we can ensure that the first phase of the project establishes a strong foundation upon which future development phases can build. As the project progresses, the team will continually reassess and refine the plans and designs, adapting them as needed to ensure the project's overall success.
 
+#### Target Audience
+
+The target audience for this technical documentation includes:
+
+-   Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
+-   Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
+-   Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
+-   Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
+
 ### Phase 2:
 Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached
 ### Phase 3:
@@ -52,14 +61,7 @@ This website will focus on the first phase of the project, detailing the prelimi
 
 
 
-### 1.4. Target Audience
 
-The target audience for this technical documentation includes:
-
-1. Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
-2. Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
-3. Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
-4. Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
 
 The Carbon Token Platform is an innovative project that aims to revolutionize the carbon market by incorporating blockchain technology, smart contracts, and AI-driven data analytics. The platform is designed to make the process of purchasing and managing carbon tokens easy and efficient for users.
 
