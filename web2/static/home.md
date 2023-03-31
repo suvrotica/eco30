@@ -13,8 +13,8 @@ In order to disperse value throughout the ecosystem, our solution incorporates a
 Our clients are business entities, governments, and institutional investors who support expanding environmental goals. They want a piece of the voluntary carbon offset market, which is anticipated to grow to between $50 and $100 billion by 2030.
 The product of immutable carbon offsets is supported by three primary pillars:  
 
-1. DAR (Decentralized Autonomous Registry) for certification and governance
-2. A decentralized database driven by drone flights, AI algorithms, and QR codes
-3. On the blockchain, tokenize immutable carbon offsets.
+-   DAR (Decentralized Autonomous Registry) for certification and governance
+-   A decentralized database driven by drone flights, AI algorithms, and QR codes
+-   On the blockchain, tokenize immutable carbon offsets.
 
 Our tokenization offers all players incentives that are ecologically aligned as well as having the requisite trust, transparency, and security. Eventually, we plan to broaden its reach to additional nations and different stages of carbon removal, like coral reefs and ocean rejuvenation. The first starting point is Costa Rica. Prior to the Initial Decentralized Exchange Offering (IDO), we are looking for $3 million in pre-seed equity capital.
