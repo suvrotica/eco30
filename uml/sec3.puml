@@ -1,0 +1,32 @@
+@startuml
+
+rectangle "Smart Contract Security" as SCS {
+}
+
+rectangle "Decentralized Identity and Authentication" as DIA {
+}
+
+rectangle "Blockchain Security and Consensus Mechanisms" as BSC {
+}
+
+rectangle "Interoperability and Cross-Chain Security" as ICC {
+}
+
+rectangle "Frontend Security for dApps" as FS {
+}
+
+rectangle "Privacy and Data Confidentiality" as PDC {
+}
+
+SCS -down-> DIA
+DIA -down-> BSC
+BSC -down-> ICC
+ICC -down-> FS
+FS -down-> PDC
+
+@enduml
+
+
+
+
+
