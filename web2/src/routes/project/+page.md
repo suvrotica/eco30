@@ -66,22 +66,13 @@ The platform allows users to buy and manage carbon tokens through a user-friendl
 
 ![uml](/Images/prj2.svg)
 
-## Sequence of events
+## Sequence 
 
-In this sequence diagram, we have the following interactions:
+Sequence diagrams visually represent the interactions between various components in a system over time. They are particularly useful for illustrating the flow of messages and events in a specific order, making it easier to understand the sequence of processes within a system. Sequence diagrams help developers and stakeholders to identify and analyze the relationships between different objects or components and understand how they interact with one another. 
 
-1. The user interacts with the platform through the User Interface (UI).
-2. The UI sends a request to the Smart Contracts (SC) to purchase carbon tokens.
-3. The SC records the transaction on the Blockchain.
-4. The Blockchain confirms the transaction and sends the confirmation back to the SC.
-5. The SC updates the user's carbon token balance in the UI.
-6. The UI shows the updated balance to the user.
-7. The AI-based Algorithm generates data and sends it to the Data Analytics (DA) component for analysis.
-8. The DA analyzes the data and sends the results back to the AI-based Algorithm.
-9. The AI-based Algorithm provides insights to the UI for the user's benefit.
+In this platform, a user interacts with the User Interface to buy carbon tokens. The interface sends a request to the Smart Contracts, which then records the transaction on the Blockchain. Once the transaction is confirmed, the Smart Contracts update the user's token balance in the interface, which then displays the updated balance. Meanwhile, an AI-based Algorithm generates data that the Data Analytics component analyzes. The analyzed data is sent back to the AI-based Algorithm, which then provides insights to the user through the User Interface.
 
-![uml](/Images/prj1.svg)
-
+![uml](/Images/prj3.svg)
 # 3 Project Planning
 
 ## Preliminary Project Planning
