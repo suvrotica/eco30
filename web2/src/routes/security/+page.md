@@ -14,7 +14,7 @@ A web server and a client browser can talk in gibberish thanks to the security p
 
 ![SSL](Images/ssl.svg)
 
-## Web3 Security Considerations
+## Web2-Web3 Security Considerations
 
 Security is a crucial aspect of the platform, as it involves handling sensitive data and transactions related to carbon tokens and user accounts. The project team must implement robust security measures and adhere to best practices to protect the platform from potential threats and vulnerabilities. This section outlines some security considerations and best practices to follow during the platform's development and operation.
 
@@ -44,3 +44,5 @@ Security is a crucial aspect of the platform, as it involves handling sensitive 
    - Regularly review logs to identify patterns or anomalies that may indicate security threats or vulnerabilities.
 
 By following these security considerations and best practices, the project team can build a secure and reliable platform that protects user data, ensures the integrity of carbon token transactions, and promotes trust among platform users and stakeholders.
+
+![uml](/Images/sec2.svg)
