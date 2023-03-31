@@ -336,40 +336,7 @@ A component dependency diagram is a visual representation of the dependencies be
 
 Creating a component dependency diagram helps the project team to understand the relationships and dependencies between components, enabling them to design a robust and maintainable architecture.
 
-### 4.3. Technology Stack Selection
 
-Selecting the appropriate technology stack for each component of the system is crucial to ensure performance, scalability, and maintainability. The technology stack should be chosen based on the project requirements, team expertise, and compatibility with other components. This section outlines the technology stack selection process and provides suggested technologies for each component.
-
-#### 4.3.1. Selection Criteria
-
-The technology stack for each component must be chosen carefully to meet the platform's requirements and ensure compatibility with other components. When selecting a technology stack, consider the following criteria:
-
-1. Performance: The chosen technologies should provide efficient and responsive performance to handle the platform's workload.
-2. Scalability: The technology stack should support horizontal and vertical scaling to accommodate future growth.
-3. Maintainability: Technologies should be well-documented, widely supported, and have an active community to facilitate long-term maintenance and updates.
-4. Compatibility: The chosen technologies should be compatible with other components in the system, ensuring seamless integration and data exchange.
-5. Security: The technology stack should support robust security measures and best practices to protect user data and platform resources.
-
-### 4.3.1. Selection Process
-
-The selection process for the technology stack should involve the following steps:
-
-1. Define the project requirements: Clearly outline the functional, performance, and security requirements of the platform to guide the technology selection process.
-2. Research and evaluate potential technologies: Investigate various technologies for each component, assessing their performance, scalability, maintainability, compatibility, and security.
-3. Consult the development team: Gather input from the project team on their expertise and familiarity with potential technologies, as well as any concerns or recommendations.
-4. Test and prototype: Test the selected technologies in a prototype or proof-of-concept environment to evaluate their performance, compatibility, and ease of use.
-5. Make the final decision: Based on the research, testing, and team input, select the most suitable technology stack for each component.
-
-After completing the selection process, document the chosen technology stack and the rationale for each choice to facilitate future development and maintenance efforts.
-
-### 4.3.2. Suggested Technologies for Frontend Application
-
-The frontend application is responsible for user interactions and displaying data related to reforestation initiatives and carbon tokens. The chosen technology stack should support a responsive, user-friendly interface and provide seamless communication with the backend API. Some suggested technologies for the frontend application include:
-
-1. React: A popular, open-source JavaScript library for building user interfaces, React is known for its performance, reusability, and ease of development.
-2. Redux: A predictable state container for JavaScript applications, Redux works well with React and can help manage the application's state more efficiently.
-3. Bootstrap or Material-UI: Both are responsive front-end frameworks that provide pre-built components and styling to facilitate the rapid development of user interfaces.
-4. Axios: A popular library for making HTTP requests from the frontend to the backend API, Axios is easy to use and supports features like interceptors, which can be useful for handling authentication tokens.
 
 ### 4.3.3. Suggested Technologies for Backend API
 
@@ -649,26 +616,7 @@ The preliminary project planning phase will include the following deliverables:
 - Project Timeline: A detailed timeline for the project, including milestones, deliverables, and dependencies.
 - Quality Assurance: A plan for ensuring the quality of the project's deliverables and outcomes, including testing and validation activities.
 
-## 8.2 Overall Architecture Design Deliverables
-
-The overall architecture design phase will include the following deliverables:
-
-- System Overview: A high-level overview of the project's system architecture, including the key components and their interactions.
-- Core Components: A detailed description of the project's core components, including the Polygon blockchain integration, Carbon Token smart contract, Reforestation Management System, and User Interface and Experience.
-- Open-Source Technologies and Tools: A list of the open-source technologies and tools that will be used to build the project's software, including Blockchain Development, Backend Development, and Frontend Development tools.
-- Data Flow and Interactions: A detailed description of the data flow and interactions between the project's components, including the flow of data between the Polygon blockchain and the Reforestation Management System.
-- Security Considerations: A plan for ensuring the security of the project's system architecture and components, including the use of encryption, access controls, and other security mechanisms.
-
-## 8.3 Expected Deliverables for Future Phases
-
-The project team expects to deliver the following deliverables for future phases of the project:
-
-- Carbon Token Issuance Process: A detailed description of the process for issuing Carbon Tokens, including the tokenomics, creation, distribution, and redemption processes.
-- Reforestation Management: A detailed plan for managing the reforestation initiatives and partnerships supported by the project, including the validation and monitoring processes.
-- User Roles and Access Control: A detailed plan for implementing the user roles and access control system, including the user registration and authentication process, user roles and permissions, and access control mechanisms.
-- Communication and Collaboration: A plan for communicating and collaborating with project stakeholders, including the use of communication channels, collaboration tools, and documentation and version control systems.
-- Conclusion: A summary of the project's achievements during the current phase, as well as the next steps and future work that will be required to complete the project.
-
+## 8.2
 ##  <a id="s9"></a>9. Communication and Collaboration
 [Top](#s0)
 
