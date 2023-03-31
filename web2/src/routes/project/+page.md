@@ -72,7 +72,7 @@ Sequence diagrams visually represent the interactions between various components
 
 In this platform, a user interacts with the User Interface to buy carbon tokens. The interface sends a request to the Smart Contracts, which then records the transaction on the Blockchain. Once the transaction is confirmed, the Smart Contracts update the user's token balance in the interface, which then displays the updated balance. Meanwhile, an AI-based Algorithm generates data that the Data Analytics component analyzes. The analyzed data is sent back to the AI-based Algorithm, which then provides insights to the user through the User Interface.
 
-![uml](/Images/prj3.svg)
+![uml](/Images/prj1.svg)
 # 3 Project Planning
 
 ## Preliminary Project Planning
