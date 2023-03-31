@@ -22,14 +22,24 @@ The timeline should be flexible enough to accommodate changes and adjustments as
 
 ![uml](/Images/gantt.svg)
 ### Phase 1:
-Preliminary project planning and overall architecture design. Milestones such as:
 
--   Stakeholder Analysis: Completion of a comprehensive stakeholder analysis to guide project direction and priorities.
--   Project Team Formation: Recruitment and onboarding of all required team members.
--   Risk Assessment: Identification and mitigation planning for potential risks and challenges.
--   Budget Estimation: Development of a detailed budget estimate and securing of necessary funding.
--   Architecture Design: Completion of the overall architecture design, including system requirements, software components, and network infrastructure.
--   Phase 1 Review: Evaluation of Phase 1 deliverables and progress before transitioning to Phase 2.
+This technical overview addresses the first phase of the project, which concentrates on preliminary project planning and high-level architecture design. In this phase, we will lay the groundwork for future development stages by outlining system requirements, project planning, architecture design, and other essential components.
+
+It is important to note that this document will not delve into the implementation details or code-level aspects of the project. These topics will be tackled in subsequent phases as the project progresses and the team gains a better understanding of the requirements and potential challenges.
+
+During the first phase, our primary objectives will include:
+
+-   Identifying and analyzing the project requirements: We will gather information about the project's goals, objectives, and scope, as well as any constraints or limitations that may impact the project's success.
+
+-   Developing a high-level architecture design: The team will work together to create an overall system architecture that addresses the identified requirements and provides a solid foundation for future development work.
+
+-   Establishing a project plan: We will develop a comprehensive project plan that outlines the tasks, milestones, and deliverables required to complete the project, along with a realistic timeline and resource allocation.
+
+-   Assembling the project team: Identifying the necessary roles and responsibilities for each team member will be crucial to ensure smooth collaboration and efficient progress throughout the project.
+
+It is essential to recognize that the designs created during this initial phase will likely evolve over time. As the team moves forward with implementation, analyzes requirements more thoroughly, gathers stakeholder feedback, and encounters unforeseen challenges, the architecture and project plans will need to adapt accordingly.
+
+By acknowledging these caveats and remaining flexible in our approach, we can ensure that the first phase of the project establishes a strong foundation upon which future development phases can build. As the project progresses, the team will continually reassess and refine the plans and designs, adapting them as needed to ensure the project's overall success.
 
 ### Phase 2:
 Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached
@@ -41,9 +51,6 @@ Maintenance of the platform - long term
 This website will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
 
 
-### 1.3. Scope of the Documentation
-
-This technical documentation covers the first phase of the project, focusing on preliminary project planning and overall architecture design. The document will outline the system requirements, project planning, architecture design, and other essential aspects required for laying the foundation for future development phases. The documentation will not cover the implementation details or code-level aspects of the project, as these will be addressed in subsequent phases.
 
 ### 1.4. Target Audience
 
