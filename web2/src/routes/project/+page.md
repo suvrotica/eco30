@@ -5,7 +5,18 @@
 
 The project revolves around the issuance of carbon tokens on the Polygon blockchain. By tying these tokens to reforestation efforts, the project aims to create a tangible and measurable impact on global carbon sequestration. The tokens will be used as a means of incentivizing reforestation activities and allowing individuals and organizations to offset their carbon footprint.
 
-The project will be developed in four phases:
+### Project Timeline
+
+Creating a project timeline helps to establish deadlines, allocate resources, and track progress throughout the project lifecycle. The timeline should include key milestones, deliverables, and deadlines for each phase of the project. For Phase 1, the preliminary project planning and overall architecture design, the timeline may include milestones such as:
+
+1. Stakeholder Analysis: Completion of a comprehensive stakeholder analysis to guide project direction and priorities.
+2. Project Team Formation: Recruitment and onboarding of all required team members.
+3. Risk Assessment: Identification and mitigation planning for potential risks and challenges.
+4. Budget Estimation: Development of a detailed budget estimate and securing of necessary funding.
+5. Architecture Design: Completion of the overall architecture design, including system requirements, software components, and network infrastructure.
+6. Phase 1 Review: Evaluation of Phase 1 deliverables and progress before transitioning to Phase 2.
+
+The timeline should be flexible enough to accommodate changes and adjustments as the project progresses, while still providing clear goals and deadlines to ensure timely progress.
 
 ![uml](/Images/gantt.svg)
 ### Phase 1:

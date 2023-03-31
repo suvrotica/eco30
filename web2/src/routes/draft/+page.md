@@ -73,41 +73,6 @@
 
 The purpose of this technical documentation is to outline the first phase of a project aimed at issuing carbon tokens on the Polygon blockchain using a process of reforestation. By leveraging blockchain technology and reforestation initiatives, the project aims to create a scalable and sustainable solution to incentivize reforestation efforts and help individuals and organizations offset their carbon footprints. This documentation will provide a detailed overview of the project's objectives, system requirements, architecture design, and preliminary planning, which will lay the groundwork for future development phases.
 
-### 1.1. Project Overview
-
-The project revolves around the issuance of carbon tokens on the Polygon blockchain. By tying these tokens to reforestation efforts, the project aims to create a tangible and measurable impact on global carbon sequestration. The tokens will be used as a means of incentivizing reforestation activities and allowing individuals and organizations to offset their carbon footprint.
-
-The project will be developed in four phases:
-
-1. Preliminary project planning and overall architecture design (Phase 1 - Current)
-2. Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached (Phase 2)
-3. Complete development of the project (Phase 3)
-4. Maintenance of the platform - long term (Phase 4)
-
-This document will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
-
-### 1.2. Project Objectives
-
-The primary objectives of this project are:
-
-1. To create a decentralized platform that issues carbon tokens on the Polygon blockchain.
-2. To leverage reforestation initiatives to generate measurable and verifiable carbon offsets.
-3. To incentivize reforestation efforts by using carbon tokens as a reward mechanism.
-4. To provide a user-friendly platform for individuals and organizations to offset their carbon footprints.
-5. To utilize open-source technologies and tools to maximize transparency, collaboration, and cost-effectiveness.
-
-### 1.3. Scope of the Documentation
-
-This technical documentation covers the first phase of the project, focusing on preliminary project planning and overall architecture design. The document will outline the system requirements, project planning, architecture design, and other essential aspects required for laying the foundation for future development phases. The documentation will not cover the implementation details or code-level aspects of the project, as these will be addressed in subsequent phases.
-
-### 1.4. Target Audience
-
-The target audience for this technical documentation includes:
-
-1. Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
-2. Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
-3. Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
-4. Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
 
 ##  <a id="s2"></a>2. System Requirements
 [Top](#s0)
@@ -332,20 +297,7 @@ This approach will help ensure a more accurate and flexible budget that can adap
 
 5. **Self-funding**: If the founding team has sufficient financial resources, they can consider self-funding the project or utilizing personal networks to secure investments.
 
-### 3.5. Project Timeline
-
-Creating a project timeline helps to establish deadlines, allocate resources, and track progress throughout the project lifecycle. The timeline should include key milestones, deliverables, and deadlines for each phase of the project. For Phase 1, the preliminary project planning and overall architecture design, the timeline may include milestones such as:
-
-1. Stakeholder Analysis: Completion of a comprehensive stakeholder analysis to guide project direction and priorities.
-2. Project Team Formation: Recruitment and onboarding of all required team members.
-3. Risk Assessment: Identification and mitigation planning for potential risks and challenges.
-4. Budget Estimation: Development of a detailed budget estimate and securing of necessary funding.
-5. Architecture Design: Completion of the overall architecture design, including system requirements, software components, and network infrastructure.
-6. Phase 1 Review: Evaluation of Phase 1 deliverables and progress before transitioning to Phase 2.
-
-The timeline should be flexible enough to accommodate changes and adjustments as the project progresses, while still providing clear goals and deadlines to ensure timely progress.
-
-### 3.6. Communication and Collaboration Plan
+# 3.6. Communication and Collaboration Plan
 
 Establishing a communication and collaboration plan is crucial for ensuring effective coordination among team members, keeping stakeholders informed, and maintaining transparency throughout the project. The plan should outline the tools, channels, and processes that will be used to facilitate communication and collaboration among project participants. Key components of the communication and collaboration plan may include:
 
@@ -719,37 +671,7 @@ Lasting Storage: Lasting Storage is a decentralized storage solution built on to
 
 Incorporating these storage services into the Carbon Token on Polygon Blockchain platform will provide the project with diverse options for secure, reliable, and decentralized data storage. Utilizing these services will ensure the persistent availability and integrity of the data, ultimately enhancing the platform's efficiency and effectiveness in monitoring and measuring carbon offsetting and reforestation efforts.
 
-### 4.5. Security Considerations and Best Practices
-
-Security is a crucial aspect of the platform, as it involves handling sensitive data and transactions related to carbon tokens and user accounts. The project team must implement robust security measures and adhere to best practices to protect the platform from potential threats and vulnerabilities. This section outlines some security considerations and best practices to follow during the platform's development and operation.
-
-1. Secure Communication:
-   - Implement HTTPS for secure communication between the frontend application and backend API, ensuring data encryption and preventing man-in-the-middle attacks.
-   - Use SSL/TLS certificates to authenticate the server and encrypt data transmitted between the server and clients.
-
-2. Data Protection:
-   - Store sensitive data, such as user credentials and API keys, in encrypted form using industry-standard encryption algorithms (e.g., AES-256).
-   - Implement secure hashing algorithms (e.g., bcrypt or Argon2) for storing user passwords.
-   - Regularly back up data and store backups in a secure offsite location to minimize data loss risks.
-
-3. Access Control and Authentication:
-   - Implement role-based access control (RBAC) to define user roles and permissions, ensuring that users can only access the resources and perform actions relevant to their roles.
-   - Use secure authentication methods, such as two-factor authentication (2FA) or OAuth, to validate user identities and protect against unauthorized access.
-
-4. Input Validation and Sanitization:
-   - Validate and sanitize all user inputs to prevent potential security vulnerabilities, such as SQL injection or cross-site scripting (XSS) attacks.
-   - Implement server-side validation in addition to client-side validation to ensure comprehensive input validation.
-
-5. Regular Security Audits and Vulnerability Scanning:
-   - Perform regular security audits and vulnerability scans to identify potential threats and weaknesses in the platform's infrastructure and codebase.
-   - Remediate identified vulnerabilities in a timely manner and apply security patches as needed.
-
-6. Monitoring and Logging:
-   - Implement monitoring and logging solutions to track system activity, detect potential security incidents, and facilitate incident response and investigation.
-   - Regularly review logs to identify patterns or anomalies that may indicate security threats or vulnerabilities.
-
-By following these security considerations and best practices, the project team can build a secure and reliable platform that protects user data, ensures the integrity of carbon token transactions, and promotes trust among platform users and stakeholders.
-
+### 4.5. 
 ##  <a id="s5"></a>5. Carbon Token Issuance Process
 [Top](#s0)
 
