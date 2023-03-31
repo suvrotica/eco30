@@ -28,7 +28,6 @@ After completing the selection process, document the chosen technology stack and
 
 The frontend application is responsible for user interactions and displaying data related to reforestation initiatives and carbon tokens. The chosen technology stack should support a responsive, user-friendly interface and provide seamless communication with the backend API. Some suggested technologies for the frontend application include:
 
-
 As a pair, throughout the web development ecosystem, although they have separate functions despite being related. Let's briefly go over each in order to see how they differ and why SvelteKit might be more suited for the Eco30 project.
 
 ![Svelte Ecosystem](Images/svelte.svg)
@@ -37,11 +36,11 @@ As a pair, throughout the web development ecosystem, although they have separate
 
 A cutting-edge frontend framework for creating web applications is called Svelte. Svelte is a compiler that converts your components into extremely efficient, imperative JavaScript code at build time, unlike other well-known frameworks like React or Vue. Smaller bundle sizes and improved runtime performance are the effects of this. You may create components with Svelte using a special syntax that blends HTML, CSS, and JavaScript. Because svelte components are reactive by nature, managing state and creating user interfaces is done in a more natural way.
 
-## Sveltekit
+### Sveltekit
 
 A full framework for developing web apps, SvelteKit is developed on top of Svelte. By providing a uniform project structure, server-side rendering (SSR), static site generation (SSG), and other necessary elements for creating fully functional online applications, it expands the possibilities of Svelte. Vite, a quick build tool and development server that offers a top-notch work environment, serves as the foundation for SvelteKit. Additionally, SvelteKit has an integrated adapter system for quickly deploying apps to a variety of hosting platforms.
 
-## Why use SvelteKit for Eco30
+### Why use SvelteKit for Eco30
 
 SvelteKit has a number of benefits over utilizing Svelte by itself, which makes it a superior choice for the Eco30 project:
 
@@ -51,29 +50,36 @@ SvelteKit has a number of benefits over utilizing Svelte by itself, which makes 
 -   Simplified deployment: SvelteKit's adapter system makes it simple and easy to deploy your application to a variety of hosting platforms.
 -   Extensibility: SvelteKit is a flexible option for creating the Eco30 project since it provides for simple interaction with other tools, libraries, and APIs.
 
+### Vercel
 
-## Vite:
+-   A cloud platform called Vercel is made for serverless and frontend deployment. It offers frontend applications and serverless operations a smooth deployment experience, enabling developers to launch their projects fast and easily. Vercel offers many services such as continuous deployment, automated SSL certificates, and a worldwide content delivery network (CDN).
 
+![Alt text](Images/hosting.svg)
+
+### Vite:
+
+-   Evan You, the developer of Vue.js, designed Vite as a build tool and development server. Vite uses the native ES modules found in contemporary browsers to deliver a quick programming experience. It provides for fast, lightweight development with capabilities like hot module replacement (HMR) and fast build times. Svelte and SvelteKit are two frontend frameworks that can be used with Vite.
+-   Vite is utilized as the foundational build tool and development server in the context of SvelteKit, offering a quick and easy development experience. It allows developers to easily create a local development environment, examine their changes in real-time, and build their SvelteKit applications for production.
 -   Vite is a build tool and development server that leverages native ES modules for faster development and building.
 -   Vite provides fast development experience with features like Hot Module Replacement (HMR), which helps developers see their changes in real-time without a full page reload.
 -   Vite supports various plugins and integrations, making it easy to extend its functionality to cater to project-specific needs.
 
-## CSS Framework:
+### CSS Framework:
 
 -   PicoCSS is a minimal CSS framework that is lightweight and provides a solid base for styling web applications.
 -   Using a CSS framework like PicoCSS can save time on styling and ensure a consistent look and feel across the application.
 
-## Icon Library:
+### Icon Library:
 
 -   The project uses the Iconify library for Svelte, providing a wide range of icons and a simple way to include them in the application.
 -   Iconify supports multiple icon sets, making it easy to find suitable icons for the project.
 
-## Markdown and Rendering:
+### Markdown and Rendering:
 
 -   The project uses marked for parsing and rendering Markdown, which is a popular and widely used library for this purpose.
 -   MDSvex, an extension for Svelte, is used to enable the use of Svelte components within Markdown files, providing a seamless integration of content and interactivity.
 -   Rehype-autolink-headings and rehype-slug are used to generate slugs and automatically link headings in the rendered Markdown content, improving the user experience and navigation.
 
-## Typography:
+### Typography:
 
 -   The project uses the Poppins font from the Fontsource library, which is a versatile and modern typeface that provides a pleasant reading experience for users.
