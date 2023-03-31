@@ -25,6 +25,10 @@
 			title:"Budget",
 		},
 		{
+			href:"/tokenomics",
+			title:"Tokenomics",
+		},
+		{
 			href: "/framework",
 			title: "Framework",
 			
