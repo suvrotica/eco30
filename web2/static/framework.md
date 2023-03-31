@@ -23,37 +23,3 @@ SvelteKit has a number of benefits over utilizing Svelte by itself, which makes 
 4. Simplified deployment: SvelteKit's adapter system makes it simple and easy to deploy your application to a variety of hosting platforms.
 5. Extensibility: SvelteKit is a flexible option for creating the Eco30 project since it provides for simple interaction with other tools, libraries, and APIs.
 
-``` js
-@startuml Svelte
-
-title Eco30 Project Component Diagram
-
-package "Front End Framework" {
-  [Svelte]
-  note right of [Svelte]
-    - Cutting-edge frontend framework
-    - Compiler converts components into efficient JavaScript code
-    - Smaller bundle sizes and improved runtime performance
-    - Reactive components with HTML, CSS, and JavaScript
-  end note
-}
-
-package "Application Framework" {
-  [SvelteKit]
-  note right of [SvelteKit]
-    - Full framework built on top of Svelte
-    - Unified project structure
-    - Server-side rendering (SSR) and static site generation (SSG)
-    - Integrated build system (Vite) and development server
-    - Simplified deployment with adapter system
-    - Extensibility with other tools, libraries, and APIs
-  end note
-}
-
-component "Eco30 Project" as Eco30
-
-Eco30 --> [SvelteKit] : Uses
-[SvelteKit] --> [Svelte] : Built on top of
-
-@enduml
-```

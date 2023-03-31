@@ -82,3 +82,11 @@ There are several open source and non-open source projects and protocols aimed a
 - CarbonAsset.Network: A platform that enables the tracking and trading of carbon credits on the blockchain. The platform uses smart contracts to ensure transparency and traceability in the trading process.
 
 Each project and protocol has its unique features and benefits that cater to different needs and requirements in the carbon offsetting and sustainability sector. The use of blockchain technology enables transparency, accountability, and traceability in the carbon offsetting process, which is crucial for ensuring the legitimacy and effectiveness of sustainable projects. As the demand for sustainable practices and carbon offsetting increases, we can expect to see more innovative blockchain-based solutions in this field.
+
+In our approach, we will leverage the canonical versions of various existing platforms and protocols like c3, Toucan Protocol, Moss Earth, OpenTree Platform, Hyperledger Fabric, Carbon Grid, OpenClimate, Climatecoin, Carbon Delta, and Carbon Initiative. These platforms have already established a standard, common-sense approach to address carbon offset and climate-related challenges.
+
+Each of these platforms has built a layer of specificity on top of the canonical version, tailoring it to their unique requirements and use-cases. Our goal is to integrate the best aspects of these platforms to create a customized solution that suits our specific needs. We will analyze the strengths and weaknesses of each platform, identify the key features and functionalities that we can adapt, and re-engineer those elements to fit our requirements.
+
+For instance, we could leverage Hyperledger Fabric's permissioned blockchain technology for secure and transparent transaction records. We might also benefit from OpenClimate's comprehensive approach to climate data and policy management. Additionally, Moss Earth's experience with forest conservation projects could provide valuable insights into effective carbon offset strategies.
+
+By carefully selecting the best aspects of each platform and re-engineering them to create a unified, cohesive system, we can develop a powerful, tailored solution that addresses our climate goals while ensuring efficiency, transparency, and scalability.
