@@ -1,5 +1,41 @@
 
-# Project Overview: Carbon Token Platform
+# Project Carbon Token Platform
+
+### 1.1. Project Overview
+
+The project revolves around the issuance of carbon tokens on the Polygon blockchain. By tying these tokens to reforestation efforts, the project aims to create a tangible and measurable impact on global carbon sequestration. The tokens will be used as a means of incentivizing reforestation activities and allowing individuals and organizations to offset their carbon footprint.
+
+The project will be developed in four phases:
+
+1. Preliminary project planning and overall architecture design (Phase 1 - Current)
+2. Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached (Phase 2)
+3. Complete development of the project (Phase 3)
+4. Maintenance of the platform - long term (Phase 4)
+
+This document will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
+
+### 1.2. Project Objectives
+
+The primary objectives of this project are:
+
+1. To create a decentralized platform that issues carbon tokens on the Polygon blockchain.
+2. To leverage reforestation initiatives to generate measurable and verifiable carbon offsets.
+3. To incentivize reforestation efforts by using carbon tokens as a reward mechanism.
+4. To provide a user-friendly platform for individuals and organizations to offset their carbon footprints.
+5. To utilize open-source technologies and tools to maximize transparency, collaboration, and cost-effectiveness.
+
+### 1.3. Scope of the Documentation
+
+This technical documentation covers the first phase of the project, focusing on preliminary project planning and overall architecture design. The document will outline the system requirements, project planning, architecture design, and other essential aspects required for laying the foundation for future development phases. The documentation will not cover the implementation details or code-level aspects of the project, as these will be addressed in subsequent phases.
+
+### 1.4. Target Audience
+
+The target audience for this technical documentation includes:
+
+1. Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
+2. Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
+3. Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
+4. Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
 
 The Carbon Token Platform is an innovative project that aims to revolutionize the carbon market by incorporating blockchain technology, smart contracts, and AI-driven data analytics. The platform is designed to make the process of purchasing and managing carbon tokens easy and efficient for users.
 
