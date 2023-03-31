@@ -59,8 +59,8 @@
 			
 		},
 		{
-			href: "/draft",
-			title: "Draft",
+			href: "/dao",
+			title: "DAO",
 			
 		},
 		

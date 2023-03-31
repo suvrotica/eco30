@@ -101,28 +101,4 @@ The tokenomics canvas typically consists of several sections, including:
 2. How will the token differ from existing cryptocurrencies that also aim to support carbon offset markets?
 3. How will the token be marketed and promoted to potential users and investors?
 4. What potential risks and challenges do you foresee for the token project, and how will you address them?
-### Carbon Offset Standard
-
-#### Questions
-
-1. What carbon offset standard will the token be based on (e.g., VCS, Gold Standard, CDM)?
-2. How will the carbon offset credits be verified and tracked on the blockchain?
-3. What kind of auditing or monitoring will be required to ensure the validity of the carbon offset credits?
-4. How will the carbon offset credits be priced, and what factors will be taken into account when determining the price?
-5. Will there be any requirements for the projects generating the carbon offset credits (e.g., minimum standards for emissions reductions, social and environmental impact assessments)?
-6. Will the token be restricted to a specific geography or sector, or will it be more broadly applicable to any carbon offset credit project that meets the standard?
-7. How will the token create value for investors and users, and how will the carbon offset standard contribute to this value proposition?
-
-### DAO Management
-
-#### Questions
-
-1. What is the purpose of the DAO, and how will it be structured?
-2. Who will be the members of the DAO, and how will they be selected or elected?
-3. What kind of decision-making process will be used in the DAO (e.g., voting, consensus, delegation)?
-4. What kind of proposals will the DAO consider (e.g., changes to the token economics, updates to the carbon offset standard, new partnerships or collaborations)?
-5. How will the proposals be evaluated and approved by the DAO?
-6. How will the DAO's treasury be managed, and what kind of assets will it hold (e.g., cryptocurrency, carbon offset credits, fiat currency)?
-7. How will the DAO ensure transparency and accountability to its members and the wider community?
-8. How will the DAO contribute to the broader goals of promoting carbon offsetting and sustainable development?
 
