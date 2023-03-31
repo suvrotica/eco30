@@ -71,99 +71,7 @@
 ## <a id="s1"></a>1. Introduction
 [Top](#s0)
 
-The purpose of this technical documentation is to outline the first phase of a project aimed at issuing carbon tokens on the Polygon blockchain using a process of reforestation. By leveraging blockchain technology and reforestation initiatives, the project aims to create a scalable and sustainable solution to incentivize reforestation efforts and help individuals and organizations offset their carbon footprints. This documentation will provide a detailed overview of the project's objectives, system requirements, architecture design, and preliminary planning, which will lay the groundwork for future development phases.
 
-
-##  <a id="s2"></a>2. System Requirements
-[Top](#s0)
-
-In this section, we will outline the minimum hardware and software requirements necessary to support the development, deployment, and operation of the platform. These requirements will ensure the platform's performance, security, and reliability while keeping costs and resource consumption within reasonable limits.
-
-### 2.1. Hardware Requirements
-
-The hardware requirements per team participant, for the project can be divided into three main categories: development environment, testing environment, and production environment. These requirements will be subject to change as the project progresses and may need to be updated in later phases.
-
-1. Development Environment:
-   - A modern computer with a multi-core processor, at least 8 GB of RAM, and sufficient storage space for the development tools, source code, and supporting files.
-   - High-speed internet connection to facilitate collaboration, access to resources, and version control.
-
-2. Testing Environment:
-   - A dedicated server or cloud-based environment with a multi-core processor, at least 16 GB of RAM, and adequate storage space to host the platform's components and accommodate test data.
-   - High-speed internet connection for remote access, monitoring, and performance analysis.
-
-3. Production Environment:
-   - A scalable infrastructure capable of hosting the platform's components, such as cloud-based servers or dedicated server clusters, with sufficient processing power, memory, and storage to handle anticipated user loads and data storage requirements.
-   - Redundant and geographically distributed nodes to ensure high availability, fault tolerance, and optimal performance for users worldwide.
-   - Robust network infrastructure with sufficient bandwidth and security measures to protect against unauthorized access and potential attacks.
-
-### 2.2. Software Requirements
-
-The software requirements for the project are crucial to ensure that the platform is built using reliable, secure, and efficient technologies. The project will rely on open-source software wherever possible to reduce costs, increase transparency, and facilitate collaboration.
-
-1. Operating System: A modern operating system, such as Windows, to support the development environment and server infrastructure.
-2. Polygon Blockchain: Integration with the Polygon blockchain network for issuing and managing carbon tokens.
-3. Smart Contract Development: Utilization of Solidity smart contract language compatible with the Polygon network for carbon token smart contract development.
-4. Backend Development: A suitable backend framework and programming language, such as Node.js to support the platform's API, data processing, and business logic.
-5. Database Management System: A scalable and reliable database management system, such as PostgreSQL or MongoDB, to store and manage user data, reforestation initiatives, and carbon token transactions.
-6. Frontend Development: A modern frontend framework, such as Sveltekit, for building a user-friendly interface and responsive web application.
-7. Version Control System: A version control system, such as Git, for managing source code, collaborating on development tasks, and tracking changes throughout the project lifecycle.
-8. Continuous Integration and Deployment: A CI/CD pipeline, such as GitHub Actions, to automate the testing, building, and deployment of the platform components.
-
-### 2.3. Network Infrastructure
-
-The network infrastructure for the project must be designed to support the platform's requirements for scalability, security, and performance. The following considerations should be taken into account when designing the network infrastructure:
-
-1. Connectivity: High-speed internet connections for development, testing, and production environments to ensure efficient communication, access to resources, and data transfer.
-2. Scalability: Network infrastructure capable of handling increased user loads and data storage requirements as the platform grows, such as the use of load balancers, content delivery networks (CDNs), and autoscaling server clusters.
-3. Security: Implementation of security measures, such as firewalls, intrusion detection systems, and encryption, to protect the platform from unauthorized access, data breaches, and attacks.
-4. Monitoring and Maintenance: Tools and processes for monitoring network performance, identifying bottlenecks, and ensuring optimal performance and reliability.
-5. Redundancy and Disaster Recovery: Geographically distributed nodes and backup systems to minimize downtime and ensure high availability in the event of hardware failures, network outages, or other incidents.
-
-##  <a id="s3"></a>3. Preliminary Project Planning
-[Top](#s0)
-
-The first phase of the project involves preliminary planning to define the project's scope, identify stakeholders, establish the project team, assess risks, estimate budget, and create a project timeline. This planning phase will ensure that the project has a solid foundation and that all essential aspects are addressed before moving on to the architecture design and implementation phases.
-
-### 3.1. Stakeholder Analysis
-
-A thorough stakeholder analysis is crucial to understanding the needs, expectations, and potential concerns of all parties involved in the project. This analysis will help guide the project's direction, prioritize features and requirements, and facilitate communication and collaboration. Key stakeholders for this project may include:
-
-1. Project Sponsors: Investors or organizations providing financial support for the project.
-2. Project Team: Developers, engineers, project managers, and other personnel responsible for designing, building, and maintaining the platform.
-3. Reforestation Partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
-4. Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
-5. Regulatory Authorities: Government agencies or other regulatory bodies responsible for overseeing carbon offset projects and ensuring compliance with relevant regulations and standards.
-
-### 3.2. Project Team Formation
-
-Forming the project team involves identifying and recruiting the necessary personnel to cover all essential roles and responsibilities for the project's success. The project team should consist of individuals with expertise in the following areas:
-
-1. Blockchain Development: Developers with experience in Polygon blockchain integration, smart contract development, and decentralized application (dApp) design.
-2. Backend Development: Engineers with expertise in server-side programming, API development, and database management systems.
-3. Frontend Development: Designers and developers skilled in creating user-friendly interfaces and responsive web applications using modern frontend frameworks.
-4. Project Management: An experienced project manager to oversee the project's progress, manage resources, and ensure effective communication among team members and stakeholders.
-5. Quality Assurance: Testers and quality assurance personnel responsible for verifying that the platform meets functional requirements, performance standards, and security requirements.
-
-### 3.3. Risk Assessment
-
-Conducting a risk assessment is essential to identify and address potential risks and challenges that could impact the project's success. By proactively identifying risks, the project team can develop strategies to mitigate or avoid these issues before they become critical problems. Some possible risks for this project include:
-
-1. Technical Challenges: Complexities in integrating the Polygon blockchain, developing smart contracts, and designing the reforestation management system.
-2. Regulatory Compliance: Changes in regulations or standards governing carbon offsets and reforestation initiatives that may require modifications to the project's approach.
-3. Adoption and Engagement: Difficulty in attracting users and reforestation partners or challenges in maintaining their engagement with the platform.
-4. Security Risks: Potential vulnerabilities in the platform's infrastructure, codebase, or smart contracts that could expose user data or funds to unauthorized access or attacks.
-5. Resource Constraints: Insufficient funding, personnel, or other resources to complete the project on time and within budget.
-
-### 3.4. Budget Estimation
-
-Estimating the project's budget is crucial for securing funding, allocating resources, and ensuring that the project's financial needs are met throughout its lifecycle. The budget estimation should account for costs associated with development, testing, deployment, and maintenance, as well as any additional expenses related to marketing, partnerships, or regulatory compliance. Key budgetary considerations may include:
-
-1. Personnel Costs: Salaries, benefits, and other compensation for the project team, including developers, engineers, project managers, quality assurance personnel, and other experts.
-2. Hardware and Infrastructure: Expenses related to the development, testing, and production environments, including servers, networking equipment, and other hardware.
-3. Software Licenses: Costs associated with any proprietary software, tools, subscriptions, or services required for the project.
-4. Marketing and Outreach: Expenses related to promoting the platform, attracting users and reforestation partners, and building brand awareness.
-5. Partnerships and Collaborations: Costs associated with establishing and maintaining relationships with opensource initiatives, regulatory authorities, or other relevant organizations.
-6. Contingency Funds: A reserve budget to cover unexpected expenses or cost overruns during the project's development and implementation. An additional contingency fund of 15% of the total monthly project cost should be allocated to address any unforeseen costs or financial risks that may arise during the project's implementation.
 
 ## Team and Salaries
 
@@ -181,19 +89,6 @@ Estimating the project's budget is crucial for securing funding, allocating reso
 
 - Subscriptions: $5000 per month
 
-The size of a team may change depending on the needs of a project or the phase. It is not uncommon for a team to include freelancers, part-time workers, or temporary employees to meet deadlines or address specific skill gaps. The ideal team size varies depending on the type of work, the interdependence of tasks, and the level of collaboration required among team members.
-
-In general, smaller teams tend to perform better when tasks require close collaboration and interdependence among team members. For most collaborative teams, the ideal size is between 4 and 8 members. This range can help balance the need for diversity in skills, knowledge, and experience while maintaining effective communication and coordination within the team.
-
-However, team dynamics can change with the addition of freelancers or part-timers. While these additional members may help meet deadlines or address specific needs, they can also increase the complexity of team communication and coordination. The formula for communication pathways in a team is n (n - 1) / 2, where n is the number of team members. As the team size increases, the number of communication pathways also increases, which can make coordination more challenging.
-
-Ultimately, the goal should be to find a team size and composition that works well for the specific project or organization. This might involve testing different team sizes, evaluating the balance of full-time employees and temporary workers, and considering how team members' skills and expertise complement each other. As team dynamics change, it is essential to regularly assess and adjust team composition to ensure optimal performance and satisfaction for all members.
-
-When creating a budget, it is essential to consider both the rough team size and the salary ranges for each role as indicative placeholders. Since team size can vary depending on the project requirements, the budget is based on the ideal team size as discussed, which can typically range between 4 and 8 for most collaborative teams.
-
-Salary ranges have been considered in the budget. It's important to note that actual monthly salaries can differ based on factors such as experience, skills, and performance. Salary structures help ensure that pay levels for groups of jobs are competitive externally and equitable internally.
-
-This approach will help ensure a more accurate and flexible budget that can adapt to the changing needs of the project.
 
 ## TOTAL: $77,800 per month
 
@@ -285,29 +180,8 @@ This approach will help ensure a more accurate and flexible budget that can adap
 
 - It is essential to note that the timeline and milestones may be subject to change based on the project's complexity, resource availability, and any unforeseen challenges that may arise during the development process. Regular progress tracking and communication among the project team will help ensure that the project stays on track and that any deviations from the planned timeline are promptly addressed.
 
-## Financial Planning Strategies
 
-1. **Equity financing**: Seek investments from venture capital firms, angel investors, or other funding sources that are interested in supporting blockchain-based environmental projects.
-
-2. **Grants and subsidies**: Apply for grants or subsidies from governmental and non-governmental organizations that support environmental initiatives and innovative technology development.
-
-3. **Token sales**: Conduct an initial coin offering (ICO) or other token sale events to raise funds from the public, offering investors an opportunity to purchase carbon tokens at a discounted price.
-
-4. **Partnerships**: Establish strategic partnerships with established organizations or corporations that have a vested interest in supporting carbon offsetting projects or blockchain technology.
-
-5. **Self-funding**: If the founding team has sufficient financial resources, they can consider self-funding the project or utilizing personal networks to secure investments.
-
-# 3.6. Communication and Collaboration Plan
-
-Establishing a communication and collaboration plan is crucial for ensuring effective coordination among team members, keeping stakeholders informed, and maintaining transparency throughout the project. The plan should outline the tools, channels, and processes that will be used to facilitate communication and collaboration among project participants. Key components of the communication and collaboration plan may include:
-
-1. Communication Channels: Selection of appropriate communication channels, such as email, instant messaging, or video conferencing, to facilitate real-time and asynchronous communication among team members and stakeholders.
-2. Collaboration Tools: Adoption of collaboration tools, such as project management software, shared document repositories, and version control systems, to streamline team workflows and coordinate project tasks.
-3. Meeting Schedule: Establishment of a regular meeting schedule for team members and stakeholders to discuss project progress, address challenges, and make decisions.
-4. Progress Reporting: Implementation of processes for tracking and reporting project progress, such as status updates, milestone reports, or project dashboard updates.
-5. Stakeholder Engagement: Development of strategies for engaging stakeholders and soliciting their input, feedback, and support throughout the project lifecycle.
-6. Documentation: Creation and maintenance of comprehensive project documentation, including technical documentation, meeting notes, and decision logs, to ensure that all project information is accessible and up-to-date.
-
+# 3.6. 
 ##  <a id="s4"></a>4. Overall Architecture Design
 [Top](#s0)
 

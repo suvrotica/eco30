@@ -1,6 +1,8 @@
 
 # Project Carbon Token
 
+The purpose of this website is to outline the various phases of a project aimed at issuing carbon tokens on the Polygon blockchain using a process of reforestation. By leveraging blockchain technology and reforestation initiatives, the project aims to create a scalable and sustainable solution to incentivize reforestation efforts and help individuals and organizations offset their carbon footprints. This website will provide a detailed overview of the project's objectives, system requirements, architecture design, and preliminary planning, which will lay the groundwork for future development phases.
+
 The Carbon Token Platform is an innovative project that aims to revolutionize the carbon market by incorporating blockchain technology, smart contracts, and AI-driven data analytics. The platform is designed to make the process of purchasing and managing carbon tokens easy and efficient for users.
 
 ### Components
@@ -35,13 +37,48 @@ The primary objectives are:
 -   To provide a user-friendly platform for individuals and organizations to offset their carbon footprints.
 -   To utilize open-source technologies and tools to maximize transparency, collaboration, and cost-effectiveness.
 
+### Team Size
+
+The size of a team may change depending on the needs of a project or the phase. It is not uncommon for a team to include freelancers, part-time workers, or temporary employees to meet deadlines or address specific skill gaps. The ideal team size varies depending on the type of work, the interdependence of tasks, and the level of collaboration required among team members.
+
+In general, smaller teams tend to perform better when tasks require close collaboration and interdependence among team members. For most collaborative teams, the ideal size is between 4 and 8 members. This range can help balance the need for diversity in skills, knowledge, and experience while maintaining effective communication and coordination within the team.
+
+However, team dynamics can change with the addition of freelancers or part-timers. While these additional members may help meet deadlines or address specific needs, they can also increase the complexity of team communication and coordination. The formula for communication pathways in a team is n (n - 1) / 2, where n is the number of team members. As the team size increases, the number of communication pathways also increases, which can make coordination more challenging.
+
+Ultimately, the goal should be to find a team size and composition that works well for the specific project or organization. This might involve testing different team sizes, evaluating the balance of full-time employees and temporary workers, and considering how team members' skills and expertise complement each other. As team dynamics change, it is essential to regularly assess and adjust team composition to ensure optimal performance and satisfaction for all members.
+
+When creating a budget, it is essential to consider both the rough team size and the salary ranges for each role as indicative placeholders. Since team size can vary depending on the project requirements, the budget is based on the ideal team size as discussed, which can typically range between 4 and 8 for most collaborative teams.
+
+Salary ranges have been considered in the budget. It's important to note that actual monthly salaries can differ based on factors such as experience, skills, and performance. Salary structures help ensure that pay levels for groups of jobs are competitive externally and equitable internally.
+
+This approach will help ensure a more accurate and flexible budget that can adapt to the changing needs of the project.
+
+
+### Target Audience
+
+The target audience for this technical documentation includes:
+
+-   Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
+-   Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
+-   Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
+-   Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
+
+
 ## Project Timeline
 
 Creating a project timeline helps to establish deadlines, allocate resources, and track progress throughout the project lifecycle. The timeline should include key milestones, deliverables, and deadlines for each phase of the project. 
 The timeline should be flexible enough to accommodate changes and adjustments as the project progresses, while still providing clear goals and deadlines to ensure timely progress.
 
 ![uml](/Images/gantt.svg)
-### Phase 1:
+### Phase 1: Preliminary Project Planning and Overall Architecture Design
+
+- Duration: 1 month
+
+- **Milestones**:
+    -   Define project objectives and goals
+    -   Develop a detailed project plan and roadmap
+    -   Design the overall platform architecture
+    -   Deliver a technical requirements document and architecture design document
 
 This technical overview addresses the first phase of the project, which concentrates on preliminary project planning and high-level architecture design. In this phase, we will lay the groundwork for future development stages by outlining system requirements, project planning, architecture design, and other essential components.
 
@@ -55,25 +92,55 @@ During the first phase, our primary objectives will include:
 
 -   Establishing a project plan: We will develop a comprehensive project plan that outlines the tasks, milestones, and deliverables required to complete the project, along with a realistic timeline and resource allocation.
 
--   Assembling the project team: Identifying the necessary roles and responsibilities for each team member will be crucial to ensure smooth collaboration and efficient progress throughout the project.
+-   Start assembling the project team: Identifying the necessary roles and responsibilities for each team member will be crucial to ensure smooth collaboration and efficient progress throughout the project.
 
 It is essential to recognize that the designs created during this initial phase will likely evolve over time. As the team moves forward with implementation, analyzes requirements more thoroughly, gathers stakeholder feedback, and encounters unforeseen challenges, the architecture and project plans will need to adapt accordingly.
 
 By acknowledging these caveats and remaining flexible in our approach, we can ensure that the first phase of the project establishes a strong foundation upon which future development phases can build. As the project progresses, the team will continually reassess and refine the plans and designs, adapting them as needed to ensure the project's overall success.
 
-#### Target Audience
+### Phase 2: Blockchain Component and Development of Platform till MVP
 
-The target audience for this technical documentation includes:
+- Duration: 10 months
 
--   Project stakeholders: Individuals and organizations interested in the project's progress and outcomes.
--   Developers and engineers: Technical team members responsible for implementing and maintaining the platform.
--   Reforestation partners: Organizations and initiatives that will collaborate on reforestation efforts and carbon offset generation.
--   Users: Individuals and organizations interested in offsetting their carbon footprints and supporting reforestation initiatives.
+- **Milestones**:
+    -   Develop smart contracts on the Polygon blockchain
+    -   Develop a web interface for users to access the platform
+    -   Design a user-friendly interface for token issuance and tracking
+    -   4. Integrate a payment gateway for carbon token purchases
+    -   5. Develop APIs for data retrieval
+    -   6. Test the platform and fix any bugs
+    -   7. Deliver an MVP of the platform, including user documentation
 
-### Phase 2:
-Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached
-### Phase 3:
-Complete development of the project
-### Phase 4:
-Maintenance of the platform - long term
+### Phase 3: Complete Development of the Project
 
+- Duration: 10 months
+
+- **Milestones**:
+    -   Develop drone programming for reforestation measurement
+    -   Develop an AI-based algorithm for carbon offsetting measurement
+    -   Implement the carbon offsetting measurement algorithm
+    -   Develop a dashboard for users to view their carbon offsetting progress
+    -   Design and launch marketing campaigns to promote the platform
+    -   Test the platform and fix any bugs
+    -   Deliver final project deliverables, including updated user documentation
+
+### Phase 4: Maintenance of the Platform - Long Term
+
+- Duration: Ongoing
+
+- **Milestones**:
+    -   Monitor and maintain the platform to ensure functionality and performance
+    -   Implement regular updates to improve platform functionality
+    -   Provide technical support to users
+    -   Continuously improve the user experience of the platform
+
+### Communication and Collaboration Plan
+
+Establishing a communication and collaboration plan is crucial for ensuring effective coordination among team members, keeping stakeholders informed, and maintaining transparency throughout the project. The plan should outline the tools, channels, and processes that will be used to facilitate communication and collaboration among project participants. Key components of the communication and collaboration plan may include:
+
+-   Communication Channels: Selection of appropriate communication channels, such as email, instant messaging, or video conferencing, to facilitate real-time and asynchronous communication among team members and stakeholders.
+-   Collaboration Tools: Adoption of collaboration tools, such as project management software, shared document repositories, and version control systems, to streamline team workflows and coordinate project tasks.
+-   Meeting Schedule: Establishment of a regular meeting schedule for team members and stakeholders to discuss project progress, address challenges, and make decisions.
+-   Progress Reporting: Implementation of processes for tracking and reporting project progress, such as status updates, milestone reports, or project dashboard updates.
+-   Stakeholder Engagement: Development of strategies for engaging stakeholders and soliciting their input, feedback, and support throughout the project lifecycle.
+-   Documentation: Creation and maintenance of comprehensive project documentation, including technical documentation, meeting notes, and decision logs, to ensure that all project information is accessible and up-to-date.
