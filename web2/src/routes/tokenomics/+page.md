@@ -34,3 +34,95 @@ Carbon Token holders will be able to redeem their tokens for carbon offset credi
 The carbon offset credits will be purchased from verified carbon offset projects, ensuring that the offset credits used to redeem Carbon Tokens are backed by legitimate carbon offset efforts. The redemption process will be transparent and auditable, allowing stakeholders to verify the exchange of Carbon Tokens for carbon offset credits.
 
 The redemption process will also contribute to the overall carbon offset efforts of the project, as the carbon offset credits purchased through the redemption process will be retired and cannot be used again. This ensures that the carbon offset achieved through the project is real and measurable, and that the project is making a meaningful contribution to reducing carbon emissions and mitigating climate change.
+
+## Tokenomics Canvas
+
+The Tokenomics Canvas can be used to design and analyze the economic structure of a token or cryptocurrency. The canvas is a visual representation of the tokenomics model, which helps to identify key elements such as the token supply, distribution, circulation, and utility.
+
+The tokenomics canvas typically consists of several sections, including:
+
+### Token Design
+
+- Blockchain platform
+- Smart contract specifications
+- Token standard (e.g., ERC-20, ERC-721)
+
+####  Questions
+
+1. What will be the name of the token?
+2. What blockchain platform will the token be built on (Ethereum on Polygon I am assuming)?
+3. What smart contract specifications will be used (we are developing that)?
+4. What token standard will the token be based on (ERC-20 I assume)?
+5. What will be the total supply of tokens?
+
+### Token Economics
+
+- Token supply
+- Distribution
+- Circulation
+
+#### Questions
+
+1. How will the tokens be distributed (e.g., ICO, airdrop, mining, staking)?
+2. What percentage of the total supply will be reserved for the team, advisors, and early investors?
+3. What percentage of the total supply will be reserved for the carbon offset market?
+4. How will the token supply be managed over time?
+5. How will the token price be determined?
+
+### Token Utility
+
+- Use cases
+- Value proposition
+
+#### Questions
+
+1. What is the purpose of the token?
+2. How will the token be used in the carbon offset market?
+3. What benefits will the token offer to users who hold and use it?
+4. Will the token have any additional use cases beyond the carbon offset market?
+
+### Token Governance
+
+- Decision-making process
+- Governance structure
+
+#### Questions
+
+1. Who will be responsible for managing the token?
+2. What kind of decision-making process will be used for the token?
+3. Will there be any voting mechanisms for token holders?
+4. How will the community be involved in the token's governance?
+
+### Overall
+
+#### Questions
+
+1. How will the token create value for investors and users?
+2. How will the token differ from existing cryptocurrencies that also aim to support carbon offset markets?
+3. How will the token be marketed and promoted to potential users and investors?
+4. What potential risks and challenges do you foresee for the token project, and how will you address them?
+### Carbon Offset Standard
+
+#### Questions
+
+1. What carbon offset standard will the token be based on (e.g., VCS, Gold Standard, CDM)?
+2. How will the carbon offset credits be verified and tracked on the blockchain?
+3. What kind of auditing or monitoring will be required to ensure the validity of the carbon offset credits?
+4. How will the carbon offset credits be priced, and what factors will be taken into account when determining the price?
+5. Will there be any requirements for the projects generating the carbon offset credits (e.g., minimum standards for emissions reductions, social and environmental impact assessments)?
+6. Will the token be restricted to a specific geography or sector, or will it be more broadly applicable to any carbon offset credit project that meets the standard?
+7. How will the token create value for investors and users, and how will the carbon offset standard contribute to this value proposition?
+
+### DAO Management
+
+#### Questions
+
+1. What is the purpose of the DAO, and how will it be structured?
+2. Who will be the members of the DAO, and how will they be selected or elected?
+3. What kind of decision-making process will be used in the DAO (e.g., voting, consensus, delegation)?
+4. What kind of proposals will the DAO consider (e.g., changes to the token economics, updates to the carbon offset standard, new partnerships or collaborations)?
+5. How will the proposals be evaluated and approved by the DAO?
+6. How will the DAO's treasury be managed, and what kind of assets will it hold (e.g., cryptocurrency, carbon offset credits, fiat currency)?
+7. How will the DAO ensure transparency and accountability to its members and the wider community?
+8. How will the DAO contribute to the broader goals of promoting carbon offsetting and sustainable development?
+

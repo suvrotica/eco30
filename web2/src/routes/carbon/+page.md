@@ -90,3 +90,15 @@ Each of these platforms has built a layer of specificity on top of the canonical
 For instance, we could leverage Hyperledger Fabric's permissioned blockchain technology for secure and transparent transaction records. We might also benefit from OpenClimate's comprehensive approach to climate data and policy management. Additionally, Moss Earth's experience with forest conservation projects could provide valuable insights into effective carbon offset strategies.
 
 By carefully selecting the best aspects of each platform and re-engineering them to create a unified, cohesive system, we can develop a powerful, tailored solution that addresses our climate goals while ensuring efficiency, transparency, and scalability.
+
+## Carbon Offset Standard
+
+#### Questions
+
+1. What carbon offset standard will the token be based on (e.g., VCS, Gold Standard, CDM)?
+2. How will the carbon offset credits be verified and tracked on the blockchain?
+3. What kind of auditing or monitoring will be required to ensure the validity of the carbon offset credits?
+4. How will the carbon offset credits be priced, and what factors will be taken into account when determining the price?
+5. Will there be any requirements for the projects generating the carbon offset credits (e.g., minimum standards for emissions reductions, social and environmental impact assessments)?
+6. Will the token be restricted to a specific geography or sector, or will it be more broadly applicable to any carbon offset credit project that meets the standard?
+7. How will the token create value for investors and users, and how will the carbon offset standard contribute to this value proposition?
