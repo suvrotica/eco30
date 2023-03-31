@@ -7,12 +7,17 @@ The project revolves around the issuance of carbon tokens on the Polygon blockch
 
 The project will be developed in four phases:
 
-1. Preliminary project planning and overall architecture design (Phase 1 - Current)
-2. Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached (Phase 2)
-3. Complete development of the project (Phase 3)
-4. Maintenance of the platform - long term (Phase 4)
+![uml](/Images/gantt.svg)
+### Phase 1:
+Preliminary project planning and overall architecture design 
+### Phase 2:
+Blockchain component and development of the platform until the Minimum Viable Product (MVP) is reached
+### Phase 3:
+Complete development of the project
+### Phase 4:
+Maintenance of the platform - long term
 
-This document will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
+This website will focus on the first phase of the project, detailing the preliminary planning and overall architecture design. Utilizing open-source technologies and tools wherever possible, the project aims to create a transparent, collaborative, and cost-effective solution for carbon offsetting and reforestation efforts.
 
 ### 1.2. Project Objectives
 
